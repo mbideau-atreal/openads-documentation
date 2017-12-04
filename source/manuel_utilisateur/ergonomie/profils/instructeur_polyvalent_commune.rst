@@ -96,6 +96,7 @@ En plus des actions identiques :
 
     - Régénérer le récépissé (tant que le dossier n'est pas instruit)
     - Télécharger le récépissé de la demande
+    - Modifier l'affectation de l'instructeur
 
 En plus des actions déjà disponibles sur les dossiers de sa division les instructeurs
 peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas affectés à leur division :
@@ -120,6 +121,7 @@ peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas af
     - Récupérer les contraintes
     - Accéder au dossier d'instruction dans le SIG
     - Afficher l'édition de récapitulatif du dossier d'instruction
+    - Modifier l'affectation de l'instructeur
 
   - *Contrainte(s)* :
 
