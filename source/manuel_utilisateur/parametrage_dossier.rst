@@ -179,25 +179,26 @@ Les informations suivantes de la contrainte sont récupérées du SIG :
 * groupe
 * sous-groupe
 * libelle
+* texte
 
 .. image:: contrainte_synchronisation.png
 
-* **X contrainte(s) ajoutée(s)** : Contraintes importées dans openADS à partir du SIG
-* **X contrainte(s) modifiée(s)** : Contraintes déjà présentes dans openADS, mises à jour avec les dernières informations du SIG.
-* **X contrainte(s) archivée(s)** : Contraintes n'étant plus valides
+* **X contrainte(s) ajoutée(s)** : Nombre de contraintes importées dans openADS à partir du SIG.
+* **X contrainte(s) modifiée(s)** : Nombre de contraintes déjà présentes dans openADS, mises à jour avec les dernières informations du SIG.
+* **X contrainte(s) archivée(s)** : Nombre de contraintes n'existant plus dans le SIG, archivées dans openADS.
 
 Les contraintes référencées comme venant du SIG
 ===============================================
 
 Lorsque des contraintes sont importées dans openADS via la synchronisation des
-contraintes, elles sont marquées comme ayant été importées à partir du SIG.
+contraintes, elles sont marquées comme ayant été importées à partir du SIG (champ **Référence SIG** à *Oui*).
 
 Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
 présentent :
 
-* Les contraintes existent sur le SIG mais pas dans openADS : elles seront ajoutées.
-* Les contraintes existent sur le SIG ET dans openADS : les libellés, groupes et sous-groupes seront mis à jour avec les informations du SIG.
-* Les contraintes n'existent plus sur le SIG mais sont toujours présentes dans l'application : elles seront archivées en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
+* La contrainte existe sur le SIG mais pas dans openADS : elle est ajoutée.
+* La contrainte existe sur le SIG ET dans openADS : les champs **libellé**, **groupe**, **sous-groupe** et **texte** seront écrasés avec les valeurs du SIG.
+* La contrainte n'existe plus sur le SIG, mais est toujours présente dans openADS : elle est archivée en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
 
 Les contraintes n'étant pas référencées comme venant du SIG
 ===========================================================
@@ -206,7 +207,7 @@ Les contraintes créées manuellement dans l'application ne sont pas référenc�
 comme provenant du SIG.
 
 Quand une synchronisation des contraintes est lancée, ces contraintes sont ignorées et
-restent dans le même état, même si elles ont le même groupe, sous-groupe ou libellé
+restent dans le même état, même si elles ont le même groupe, sous-groupe, libellé ou texte 
 qu'une contrainte importée du SIG. Des contraintes peuvent donc être en doublon.
 
 .. _parametrage_dossiers_demandes:
