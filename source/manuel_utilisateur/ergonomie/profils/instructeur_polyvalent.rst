@@ -96,6 +96,7 @@ En plus des actions identiques :
 
     - Régénérer le récépissé (tant que le dossier n'est pas instruit)
     - Télécharger le récépissé de la demande
+    - Modifier l'affectation de l'instructeur
 
   - *Instruction* :
 
