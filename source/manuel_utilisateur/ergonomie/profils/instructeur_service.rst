@@ -111,3 +111,8 @@ Tous Les Recours
 
 Voir :ref:`Tous Les Recours<contentieux_tous_les_recours>` dans la section
 contentieux.
+
+Rubrique *Export / Import*
+--------------------------
+
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique export / import<profil_guichet_unique_rubrique_export_import>`)
