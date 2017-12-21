@@ -146,6 +146,7 @@ Recherche
 #########
 
 - Visualiser la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
+- Télécharger au format CSV la liste des dossiers d'instruction de la collectivité de l'instructeur connecté ou de toutes les collectivités si l'instructeur appartient à la collectivité multi.
 - Rechercher des dossiers d'instruction en fonction de plusieurs critères.
 - Accéder aux dossiers d'instruction dans le sig
 - Accéder à la fiche de visualisation d'un dossier d'instruction
@@ -353,3 +354,8 @@ Toutes Les Infractions
 
 Voir :ref:`Toutes Les Infractions<contentieux_toutes_les_infractions>` dans la
 section contentieux.
+
+Rubrique *Export / Import*
+--------------------------
+
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique export / import<profil_guichet_unique_rubrique_export_import>`)
