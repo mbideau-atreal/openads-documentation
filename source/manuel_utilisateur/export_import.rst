@@ -751,6 +751,7 @@ export_dia
 ==========
 
 Ces statistiques évoluées permettent d'exporter les données de l'instruction des déclarations d'intention d'aliéner (DIA).
+Seulement les dossiers ayant une décision font partie de l'export.
 
 * Filtre
 
@@ -768,6 +769,15 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * description du bien
   * surface construite au sol
   * surface utile ou habitable
+  * usage
+  * nombre de niveaux
+  * nombre d'appartements
+  * nombre d'autre locaux
+  * vente en lot de volumes
+  * vente en lot de volumes (précision)
+  * locaux dans un batiment en copropriété
+  * locaux dans un batiment en copropriété (précision)
+  * en cas d'indivision, quote-part du bien vendu
   * références cadastrales
   * adresse du terrain : numéro de voie
   * adresse du terrain : voie
@@ -776,14 +786,14 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * adresse du terrain : code postal
   * adresse du terrain : bp
   * adresse du terrain : cedex
-  * description du bien
   * prix de vente
   * acquéreur
+  * commune de résidence de l'acquereur
   * état du dossier
   * collectivité (dans le cas où l'utilisateur est d'une collectivité de niveau 2)
 
 .. note::
 
-  * La saisie des dates de décsion est facultative.
+  * La saisie des dates de décision est facultative.
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
   * Cette requête à besoin du paramètre :ref:`id_datd_filtre_reqmo_dossier_dia <parametrage_parametre_identifiants>`.
