@@ -67,6 +67,7 @@ Utilisation des options :
 * **option_date_depot_demande_defaut** : permet d'afficher (*true*) ou non (*false*) la date du jour dans le champ de la date de dépôt lors de l'ajout d'une demande. La valeur par défaut est *true*.
 * **option_simulation_taxes** : permet d'activer (*true*) ou non (*false*) :ref:`la simulation des taxes <instruction_simulation_taxes>` sur les dossiers d'instruction.
 * **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
+* **option_final_auto_instr_tacite_retour** : permet d'activer (*true*) ou désactiver (*false*) la finalisation automatique des instructions dites tacites (ajoutées automatiquement suite à des délais dépassés) ou dites retours (ajoutées automatiquement suite au suivi des dates).
 
 .. note::
 
@@ -85,6 +86,7 @@ Utilisation des paramètres de notification :
 Utilisation des paramètres d'identification :
 
 * **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement à appliquer aux dossiers d'instruction faisant l'objet d'un bordereau d'envoi des avis du Maire au Préfet, doit être paramétré sur la collectivité de niveau 2 pour une configuration multi-communes.
+* **id_datd_filtre_reqmo_dossier_dia** : paramètre définissant l'identifiant du type détaillé de dossier d'autorisation des dossiers d'instruction à retourner dans la requête mémorisée de :ref:`l'exports statistique des DIA <reqmo_export_dia>`. Il est possible d'ajouter plusieurs valeur à condition qu'elles soient séparées par des virgules.
 
 
 .. _parametrage_parametre_mails_services_consultes:

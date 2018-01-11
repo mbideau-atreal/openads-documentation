@@ -45,14 +45,19 @@ Actions identiques à celles du profil instructeur (cf :ref:`Rubrique autorisati
 Rubrique *Guichet Unique*
 -------------------------
 
-Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<guichet_unique>`)
-
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<profil_guichet_unique_rubrique_guichet_unique>`)
 
 Rubrique *Instruction*
 ----------------------
 
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique instruction<profil_guichet_unique_rubrique_instruction>`)
+
 Rubrique *Suivi*
 ----------------
 
+Actions identiques à celles du profil cellule suivi (cf :ref:`Rubrique suivi<profil_suivi_rubrique_suivi>`)
+
 Rubrique *Export / Import*
 --------------------------
+
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique export / import<profil_guichet_unique_rubrique_export_import>`)

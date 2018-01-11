@@ -35,7 +35,31 @@ Export des demandes d'avis en cours
 
 Les utilisateurs des services peuvent exporter un ensemble de demandes d'avis 
 filtrées via la recherche avancée dans un format exploitable sur tableur.
-Pour cela, il clique sur la rubrique export.
+Pour cela, il clique sur l'action export CSV.
+
+Liste des colonnes de l'export CSV :
+
+    - dossier
+    - adresse pétitionnaire
+    - type de dossier
+    - num voie chantier
+    - adresse chantier
+    - code postal chantier
+    - ville chantier
+    - date limite
+    - date de dépôt
+    - références cadastrales
+    - numero d'avis
+    - travaux
+    - état du dossier
+    - sdp totale existante
+    - zonages
+    - risques
+    - sdp totale créée
+    - sdp créée par destination
+    - surface terrain
+    - nombre total de logements
+    - nombre de parkings
 
 .. XXX insérer une capture
 
@@ -85,9 +109,79 @@ Export des demandes d'avis passées
 
 Les utilisateurs des services peuvent exporter un ensemble de demandes d'avis 
 filtrées via la recherche avancée dans un format exploitable sur tableur.
-Pour cela, il clique sur la rubrique export.
+Pour cela, il clique sur l'action export CSV.
+
+Liste des colonnes de l'export CSV :
+
+    - dossier
+    - adresse pétitionnaire
+    - type de dossier
+    - num voie chantier
+    - adresse chantier
+    - code postal chantier
+    - ville chantier
+    - date limite
+    - date de dépôt
+    - références cadastrales
+    - numero d'avis
+    - travaux
+    - avis rendu
+    - date de l'avis rendu
+    - motivation
+    - présence fichier
+    - état du dossier
+    - sdp totale existante
+    - zonages
+    - risques
+    - sdp totale créée
+    - sdp créée par destination
+    - surface terrain
+    - nombre total de logements
+    - nombre de parkings
 
 .. XXX insérer une capture ou lien vers
+
+Exports
+#######
+
+(:menuselection:`Demandes D'avis --> Exports`)
+
+Ce menu permet d'accéder à la liste des demandes d'avis envoyés au service consulté et auxquelles il à déjà répondu.
+
+Export des demandes d'avis passées
+==================================
+
+Les utilisateurs des services peuvent exporter un ensemble de demandes d'avis 
+filtrées via la recherche avancée dans un format exploitable sur tableur.
+Pour cela, il clique sur l'action export CSV.
+
+Liste des colonnes de l'export CSV :
+
+    - dossier
+    - adresse pétitionnaire
+    - type de dossier
+    - num voie chantier
+    - adresse chantier
+    - code postal chantier
+    - ville chantier
+    - date limite
+    - date de dépôt
+    - références cadastrales
+    - numero d'avis
+    - travaux
+    - avis rendu
+    - date de l'avis rendu
+    - motivation
+    - présence fichier
+    - état du dossier
+    - sdp totale existante
+    - zonages
+    - risques
+    - sdp totale créée
+    - sdp créée par destination
+    - surface terrain
+    - nombre total de logements
+    - nombre de parkings
 
 Autres informations accessibles depuis les demandes d'avis
 ##########################################################

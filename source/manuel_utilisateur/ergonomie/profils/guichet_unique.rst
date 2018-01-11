@@ -139,6 +139,8 @@ Rubrique *Guichet Unique*
 
 * Générer et afficher l'attestation d'affichage réglementaire
 
+.. _profil_guichet_unique_rubrique_instruction:
+
 Rubrique *Instruction*
 ----------------------
 
@@ -148,6 +150,7 @@ Rubrique *Instruction*
 **Tableau**
 
 * Visualiser la liste des dossiers d'instruction
+* Télécharger au format CSV la liste des dossiers d'instruction
 * Recherche simple et avancée d'un dossier d'instruction
 * Accéder à la fiche de visualisation du dossier d'instruction
 
@@ -172,6 +175,8 @@ Action(s) disponible(s) par onglet :
     - Visualiser la liste des dossiers d'instruction portant sur la même autorisation.
     - Visualiser la liste des dossiers d'autorisation liés géographiquement.
     - Accéder à chacun de ces dossiers.
+
+.. _profil_guichet_unique_rubrique_export_import:
 
 Rubrique *Export / Import*
 --------------------------

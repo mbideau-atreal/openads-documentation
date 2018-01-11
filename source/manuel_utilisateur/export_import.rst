@@ -743,3 +743,57 @@ Ces statistiques évoluées permettent d'exporter les données de l'instruction 
   * La saisie des dates est facultative.
   * Si l'on filtre par date de décision, les dossiers pour lesquels il n'y a pas eu de décision n'apparaîtront pas dans les résultats.
   * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
+
+.. _reqmo_export_dia:
+
+==========
+export_dia
+==========
+
+Ces statistiques évoluées permettent d'exporter les données de l'instruction des déclarations d'intention d'aliéner (DIA).
+Seulement les dossiers ayant une décision font partie de l'export.
+
+* Filtre
+
+  * date de décision
+
+* Aucun choix de tri n'est proposé. Les dossiers sont classés automatiquement par ordre alphabétique de leur numéro de dossier.
+
+* Les champs suivants sont par défaut affichés. Il est possible de les désélectionner.
+
+* Champs
+
+  * numéro de dossier
+  * date de dépôt
+  * demandeur
+  * description du bien
+  * surface construite au sol
+  * surface utile ou habitable
+  * usage
+  * nombre de niveaux
+  * nombre d'appartements
+  * nombre d'autre locaux
+  * vente en lot de volumes
+  * vente en lot de volumes (précision)
+  * locaux dans un batiment en copropriété
+  * locaux dans un batiment en copropriété (précision)
+  * en cas d'indivision, quote-part du bien vendu
+  * références cadastrales
+  * adresse du terrain : numéro de voie
+  * adresse du terrain : voie
+  * adresse du terrain : lieu-dit
+  * adresse du terrain : localité
+  * adresse du terrain : code postal
+  * adresse du terrain : bp
+  * adresse du terrain : cedex
+  * prix de vente
+  * acquéreur
+  * commune de résidence de l'acquereur
+  * état du dossier
+  * collectivité (dans le cas où l'utilisateur est d'une collectivité de niveau 2)
+
+.. note::
+
+  * La saisie des dates de décision est facultative.
+  * Si l'utilisateur n'est pas rattaché à la communauté, seuls les dossiers de sa commune sont listés.
+  * Cette requête à besoin du paramètre :ref:`id_datd_filtre_reqmo_dossier_dia <parametrage_parametre_identifiants>`.

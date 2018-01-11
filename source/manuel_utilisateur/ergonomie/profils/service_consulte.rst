@@ -64,8 +64,8 @@ Rubrique *Demandes D'avis*
 ###################
 
 - Visualiser la liste des demandes d'avis en cours sur lesquelles un des services de l'utilisateur a été consulté.
-- Télécharger au format CSV la liste des demandes d'avis en cours sur lesquelles un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation d'une demande d'avis en cours sur laquelle un des services de l'utilisateur a été consulté.
+- Télécharger au format CSV la liste des demandes d'avis en cours sur lesquelles un des services de l'utilisateur a été consulté.
 
   Action(s) disponible(s) par onglet :
 
@@ -89,8 +89,8 @@ Rubrique *Demandes D'avis*
 ##################
 
 - Visualiser la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
-- Télécharger au format CSV la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation d'une demande d'avis passée sur laquelle un des services de l'utilisateur a été consulté.
+- Télécharger au format CSV la liste des demandes d'avis passées sur lesquelles un des services de l'utilisateur a été consulté.
 
   Action(s) disponible(s) par onglet :
 
@@ -113,8 +113,8 @@ Rubrique *Demandes D'avis*
 #########
 
 - Visualiser la liste des demandes d'avis sur lesquelles un des services de l'utilisateur a été consulté.
-- Télécharger au format CSV la liste des demandes d'avis sur lesquelles un des services de l'utilisateur a été consulté.
 - Accéder à la fiche de visualisation d'une demande d'avis sur laquelle un des services de l'utilisateur a été consulté.
+- Télécharger au format CSV la liste des demandes d'avis sur lesquelles un des services de l'utilisateur a été consulté.
 
   Action(s) disponible(s) par onglet :
 
