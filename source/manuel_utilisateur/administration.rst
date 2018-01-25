@@ -292,6 +292,7 @@ Trois arguments facultatifs sont paramétrables :
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*
 * **nombre_de_jours** [par défaut *15*] - délai en jours avant la date limite à partir de laquelle on souhaite voir apparaître les dossiers
 * **codes_datd** [par défaut tous les types sont affichés] - liste des types de dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+* **restreindre_aux_tacites** [par défaut il n'y a pas de restriction concernant le caractère tacite] - prend comme valeur *true* (affiche seulement les dossiers d'instruction dont le caractère tacite est actif) ou *false* (pas de restriction concernant le caractère tacite)
 
 
 .. _administration_widget_messages_retours:

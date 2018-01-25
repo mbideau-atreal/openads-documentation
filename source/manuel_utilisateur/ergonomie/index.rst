@@ -50,6 +50,8 @@ Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable 
 
 Par défaut, tous les types de dossiers apparaissent dans ce listing (les types sont :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur).
 
+Il est possible de restreindre le résultat aux dossiers d'instruction ayant le caractère tacite actif (cette option est :ref:`paramétrable <administration_widget_dossiers_limites>` par l'administrateur).
+
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
 Le listing présente les informations suivantes :
