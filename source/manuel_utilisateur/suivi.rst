@@ -160,24 +160,6 @@ L'objectif est d'assurer un meilleur suivi d'un envoi groupé de dossiers en sig
 
 Ainsi après avoir sélectionné le bordereau et renseigné un intervalle de dates (par défaut celle du jour), cet écran permet d'imprimer un tableau listant tous les dossiers y correspondants.
 
-Selon le bordereau choisi la date contrôlée sera différente :
-
-* Bordereau des décisions
-
-Liste les dossiers dont la dernière instruction a pour date d'envoi pour signature la date saisie et dont l'événement est de type arrêté.
-
-* Bordereau des courriers à la signature du Maire qui ne sont pas des décisions
-
-Liste les dossiers dont la dernière instruction a pour date d'envoi pour signature la date saisie et dont l'événement n'est pas de type arrêté.
-
-* Bordereau des avis du Maire au Préfet
-
-Liste les dossiers d'instruction dont l'autorité compétente est l'*État* ou la *commune pour État* et dont l'instruction "d'avis du Maire au Préfet" a la date d'envoi RAR se trouvant dans l'intervalle saisi. De plus, cette instruction doit utiliser l'événement identifié dans le paramètre *id_evenement_bordereau_avis_maire_prefet* (plus d'information sur le paramétrage :ref:`ici <parametrage_parametre_identifiants>`).
-
-* Bordereau des contrôles de légalité
-
-Liste les dossiers dont l'autorité compétente est la commune et dont la dernière instruction a pour date d'envoi au contrôle légalité la date saisie.
-
 Une fois le formulaire validé, trois cas de figures sont possibles :
 
 * soit aucune date n'a été saisie :
@@ -193,15 +175,7 @@ Une fois le formulaire validé, trois cas de figures sont possibles :
   
   .. image:: suivi_bordereaux_message_telechargement.png
 
-Les quatre colonnes du tableau généré sont les suivantes :
-
-* dossier
-
-* événement
-
-* coordonnées du demandeur
-
-* localisation du dossier
+La liste des bordereaux est paramétrable, elle est générée en récupérant les :ref:`états <parametrage_dossiers_om_etat_lettretype>` commençant par la chaîne de caractères *bordereau_*. Dans la majorité des cas, ces états font appel des :ref:`sous-états<administration_sousetat>` paramétrables également, afin d'afficher le résultat d'une requête SQL dans un tableau.
 
 .. _suivi_bordereau_envoi_maire:
 
