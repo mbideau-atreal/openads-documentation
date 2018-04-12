@@ -540,6 +540,17 @@ Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation
 Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
 
 
+.. _widget_rss:
+
+Widget "Rss"
+------------
+
+.. image:: widget_rss.png
+
+L'objet de ce widget est de présenter une liste d'information ayant pour origine un ou plusieurs flux RSS 2.0.
+
+Ce widget est entièrement :ref:`paramétrable <administration_widget_rss>` par l'administrateur.
+
 Profils
 =======
 
