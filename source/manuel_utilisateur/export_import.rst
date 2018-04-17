@@ -34,6 +34,7 @@ Afin de générer l'export SITADEL, vous devez choisir :
 * une date de fin ; 
 * un numéro d'ordre d'envoi.
 
+L'intervalle de date se base sur la date de dernière modification des dossiers. Cette date est mise à jour à chaque instruction et à chaque changement dans les données techniques.
 Le numéro d'ordre d'envoi est le numéro de version de votre export.
 
 ========
