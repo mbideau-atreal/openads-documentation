@@ -455,6 +455,20 @@ Trois arguments sont paramétrables :
 * **max_item** - prend comme valeur un nombre entier, détermine le nombre d'information que le widget affichera.
 
 
+.. _administration_widget_dossier_consulter:
+
+dossier_consulter
+=================
+
+Ce widget permet d’afficher les X derniers dossiers consultés.
+Un lien *Voir +* permet d'afficher le listing complet de dossiers visité au sein du widget.
+Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_consulter>`.
+
+Un argument est paramétrable :
+
+* **nb_dossiers** - prend comme valeur un nombre entier, determine le nombre de dossier affiché dans le widget. Par défaut il sera égale à 5.
+
+
 .. _administration_composition:
 
 ===========
