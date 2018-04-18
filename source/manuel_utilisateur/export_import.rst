@@ -97,7 +97,10 @@ Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichi
     → La DOC n'a pas été déposée avant la DAACT
 
 **La date d'achevement de travaux doit etre supérieure à la date d'ouverture des travaux.**
-    → La date d'ouverture de chantier doit être inférieure à la date d'achèvement des travaux 
+    → La date d'ouverture de chantier doit être inférieure à la date d'achèvement des travaux
+    
+Les dossiers déjà exportés pour SITADEL n'apparaîtront plus dans les prochains exports.
+Ils seront à nouveau affichés lorsqu'au moins une des données utilisées par SITADEL sera différente du dernier export.
 
 .. _versement_archives:
 
