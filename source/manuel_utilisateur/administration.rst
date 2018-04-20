@@ -461,7 +461,7 @@ dossier_consulter
 =================
 
 Ce widget permet d’afficher les X derniers dossiers consultés.
-Un lien *Voir +* permet d'afficher le listing complet de dossiers visité au sein du widget.
+Un lien *Afficher +* permet d'afficher le listing complet de dossiers visité au sein du widget qui est limité à 20 dossiers.
 Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_consulter>`.
 
 Un argument est paramétrable :
