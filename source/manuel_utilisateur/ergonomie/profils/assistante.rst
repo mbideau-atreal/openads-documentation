@@ -66,6 +66,17 @@ Widget *Les infractions non affectées*
 - Visualiser la liste des infractions de la collectivité non affectées
 - Accéder aux infractions de la collectivité non affectées
 
+Widget *Les infractions non affectées*
+######################################
+
+- Visualiser la liste des infractions de la collectivité non affectées
+- Accéder aux infractions de la collectivité non affectées
+
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 

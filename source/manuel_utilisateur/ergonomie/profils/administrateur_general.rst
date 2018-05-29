@@ -52,6 +52,11 @@ Widget *Mes retours de consultation*
 - Visualiser la liste des consultations des dossiers d'instruction affecté à l'utilisateur dont un avis a été rendu
 - Accéder aux consultations des dossiers d'instruction affecté à l'utilisateur dont un avis a été rendu
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 

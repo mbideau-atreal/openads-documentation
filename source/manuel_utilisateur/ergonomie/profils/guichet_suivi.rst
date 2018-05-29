@@ -32,6 +32,11 @@ Widget *Autres dossiers*
 Widget *Dossiers auxquels on peut proposer une autre décision*
 ##############################################################
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 
