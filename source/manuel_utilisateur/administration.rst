@@ -466,7 +466,7 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_consul
 
 Un argument est paramétrable :
 
-* **nb_dossiers** - prend comme valeur un nombre entier, determine le nombre de dossier affiché dans le widget. Par défaut il sera égale à 5.
+* **nb_dossiers** - prend comme valeur un nombre entier, determine le nombre de dossier affiché dans le widget. Par défaut il sera égale à 5. Le nombre maximal de dossier consultés visibles dans le widget est de 20.
 
 
 .. _administration_composition:

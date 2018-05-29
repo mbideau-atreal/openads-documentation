@@ -555,7 +555,7 @@ Ce widget est entièrement :ref:`paramétrable <administration_widget_rss>` par 
 .. _widget_dossier_consulter:
 
 Widget "Derniers dossiers consultés"
----------------------------------
+------------------------------------
 
 L'objet de ce widget est de présenter un tableau contenant la liste des X derniers dossiers consultés par l'utilisateur.
 Le tableau est composé du numéro de dossier, du petitionnaire et de la date de dépôt du dossier.
