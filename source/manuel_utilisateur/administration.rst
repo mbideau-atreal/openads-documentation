@@ -440,6 +440,35 @@ Un argument facultatif est paramétrable :
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
 
 
+.. _administration_widget_rss:
+
+rss
+===
+
+Ce widget permet d’afficher X informations ayant pour origine X flux RSS 2.0.
+Les informations fonctionnelles sont disponibles :ref:`ici<widget_rss>`.
+
+Trois arguments sont paramétrables :
+
+* **urls** - il est possible de renseigner un seul ou plusieurs urls, dans le cas de multiple urls alors les séparés par une virgule
+* **mode** [par défaut *server_side*] - prend comme valeur server_side (Récupération du flux à partir du serveur Applicatif) ou client_side (Récupération du flux par le coté Client).
+* **max_item** - prend comme valeur un nombre entier, détermine le nombre d'information que le widget affichera.
+
+
+.. _administration_widget_dossier_consulter:
+
+dossier_consulter
+=================
+
+Ce widget permet d’afficher les X derniers dossiers consultés.
+Un lien *Afficher +* permet d'afficher le listing complet de dossiers visité au sein du widget qui est limité à 20 dossiers.
+Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_consulter>`.
+
+Un argument est paramétrable :
+
+* **nb_dossiers** - prend comme valeur un nombre entier, determine le nombre de dossier affiché dans le widget. Par défaut il sera égale à 5. Le nombre maximal de dossier consultés visibles dans le widget est de 20.
+
+
 .. _administration_composition:
 
 ===========
