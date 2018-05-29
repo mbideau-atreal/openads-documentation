@@ -1,4 +1,4 @@
-Documentation openADS version 4.6
+Documentation openADS version 4.7
 =================================
 
 .. image:: http://readthedocs.org/projects/openads/badge/?version=4.6
