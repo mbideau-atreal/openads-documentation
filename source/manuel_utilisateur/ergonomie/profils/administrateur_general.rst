@@ -65,12 +65,20 @@ Actions identiques à celles du profil instructeur (cf :ref:`Rubrique autorisati
 Rubrique *Guichet Unique*
 -------------------------
 
-Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<guichet_unique>`)
+Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique guichet unique<profil_guichet_unique_rubrique_guichet_unique>`)
 
 Rubrique *Instruction*
 ----------------------
 
 Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
+
+En plus des actions identiques :
+
+  - *DI* :
+
+    - Régénérer le récépissé (tant que le dossier n'est pas instruit)
+    - Télécharger le récépissé de la demande
+    - Modifier l'affectation de l'instructeur
 
 Rubrique *Suivi*
 ----------------

@@ -540,6 +540,31 @@ Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation
 Un lien "Voir +" permet d'accéder au listing des mêmes infractions sans limite de nombre.
 
 
+.. _widget_rss:
+
+Widget "Rss"
+------------
+
+.. image:: widget_rss.png
+
+L'objet de ce widget est de présenter une liste d'information ayant pour origine un ou plusieurs flux RSS 2.0.
+
+Ce widget est entièrement :ref:`paramétrable <administration_widget_rss>` par l'administrateur.
+
+
+.. _widget_dossier_consulter:
+
+Widget "Derniers dossiers consultés"
+------------------------------------
+
+L'objet de ce widget est de présenter un tableau contenant la liste des X derniers dossiers consultés par l'utilisateur.
+Le tableau est composé du numéro de dossier, du petitionnaire et de la date de dépôt du dossier.
+
+Un lien *Afficher +* permet d'afficher le listing complet de dossiers visité au sein du widget dans la limite des 20 derniers dossiers consultés.
+
+Ce widget est entièrement :ref:`paramétrable <administration_widget_dossier_consulter>` par l'administrateur.
+
+
 Profils
 =======
 
