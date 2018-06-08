@@ -68,6 +68,7 @@ Utilisation des options :
 * **option_simulation_taxes** : permet d'activer (*true*) ou non (*false*) :ref:`la simulation des taxes <instruction_simulation_taxes>` sur les dossiers d'instruction.
 * **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
 * **option_final_auto_instr_tacite_retour** : permet d'activer (*true*) ou désactiver (*false*) la finalisation automatique des instructions dites tacites (ajoutées automatiquement suite à des délais dépassés) ou dites retours (ajoutées automatiquement suite au suivi des dates).
+* **option_ws_synchro_contrainte** : permet d'activer (*true*) ou désactiver (*false*) le :ref:`web service<web_services_ressource_maintenance_synchro_contrainte>` de synchronisation des contraintes depuis le SIG. 
 
 .. note::
 

@@ -185,10 +185,11 @@ Mise à jour de l'état des dossiers d'autorisations périmés
       }
 
 
+.. _web_services_ressource_maintenance_synchro_contrainte:
 
-==========================================================
+=============================================
 Synchronisation des contraintes depuis le SIG
-==========================================================
+=============================================
 
 .. http:post:: /openads/services/rest_entry.php/maintenance
 
