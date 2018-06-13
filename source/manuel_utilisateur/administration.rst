@@ -689,3 +689,49 @@ Le générateur
 (:menuselection:`Administration --> Options Avancées --> Générateur`)
 
 Le générateur de fichiers de l'application.
+
+.. _administration_geolocalisation_auto:
+
+======================================================
+Géolocalisation automatique des dossiers d'instruction
+======================================================
+(:menuselection:`Administration --> Options Avancées --> Géolocalisation des dossiers`)
+
+
+Le principe
+===========
+
+Ce menu permet de lancer la géolocalisation automatique sur chacun des dossiers d'instruction vérifiant toutes les caractéristiques suivantes: 
+- toutes les parcelles associées au dossier existent;
+- aucune valeur n'est affectée au centroïde. 
+
+Dans ce cas là, la géolocalisation effectue un calcul de l'emprise puis un calcul du centroïde.
+
+Ce procédé peut-être déclenché manuellement ou via un :ref:`web-service<web_services_ressource_maintenance_geolocalisation_auto>`. 
+
+
+L'utilisation
+=============
+
+Le formulaire affiche le nombre de dossier d'instruction à traiter. 
+
+Il suffit de cliquer sur le bouton pour lancer le traitement. 
+
+.. image:: administration_geolocalisation_auto.png
+
+
+Les messages de retour
+======================
+
+A la fin du traitement, un message est affiché à l'utilisateur. 
+Il contient les éléments suivants, classés par collectivité: 
+- le nombre de dossiers traités avec succès ;
+- le nombre de dossiers en erreur suite à: 
+
+  - une parcelle non-existante ;
+  - calcul de l'emprise impossible ;
+  - calcul du centroïde impossible.
+
+
+
+

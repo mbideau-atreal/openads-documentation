@@ -426,6 +426,7 @@ Les informations à saisir sont :
   des consultations dans le complément sous la forme « Vu l'avis » avis rendu
   « du service » nom du service consulté.
 * **phase** : liste à choix des :ref:`phases <parametrage_phase>` à afficher sur la lettre recommandée.
+* **Finaliser automatiquement** : cette case à cocher est présente pour activer la finalisation automatique de l'événement, donc la génération automatique de sa lettre type associée.
 * **autorité compétente** : liste des autorité possible
   des consultations dans l'édition.
 * **événement suivant tacite** : événement déclenché automatiquement lorsque la
