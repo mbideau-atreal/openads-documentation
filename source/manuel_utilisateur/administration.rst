@@ -690,6 +690,59 @@ Le générateur
 
 Le générateur de fichiers de l'application.
 
+.. _administration_synchronisation_contrainte:
+
+===============================
+Synchronisation des contraintes
+===============================
+
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Synchronisation Des Contraintes`)
+
+Le principe
+===========
+
+Ce menu permet de synchroniser les contraintes du SIG avec celles de l'application.
+openADS va récupérer l'ensemble des contraintes du SIG, et les comparer avec les
+contraintes déjà présentes dans la base de données de l'application, sur la base de leur
+identifiant unique de contrainte. Les contraintes présentes sur le SIG ne seront pas
+modifiées par openADS.
+Les informations suivantes de la contrainte sont récupérées du SIG : 
+
+* identifiant
+* groupe
+* sous-groupe
+* libelle
+* texte
+
+.. image:: contrainte_synchronisation.png
+
+* **X contrainte(s) ajoutée(s)** : Nombre de contraintes importées dans openADS à partir du SIG.
+* **X contrainte(s) modifiée(s)** : Nombre de contraintes déjà présentes dans openADS, mises à jour avec les dernières informations du SIG.
+* **X contrainte(s) archivée(s)** : Nombre de contraintes n'existant plus dans le SIG, archivées dans openADS.
+
+Les contraintes référencées comme venant du SIG
+===============================================
+
+Lorsque des contraintes sont importées dans openADS via la synchronisation des
+contraintes, elles sont marquées comme ayant été importées à partir du SIG (champ **Référence SIG** à *Oui*).
+
+Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
+présentent :
+
+* La contrainte existe sur le SIG mais pas dans openADS : elle est ajoutée.
+* La contrainte existe sur le SIG ET dans openADS : les champs **libellé**, **groupe**, **sous-groupe** et **texte** seront écrasés avec les valeurs du SIG.
+* La contrainte n'existe plus sur le SIG, mais est toujours présente dans openADS : elle est archivée en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
+
+Les contraintes n'étant pas référencées comme venant du SIG
+===========================================================
+
+Les contraintes créées manuellement dans l'application ne sont pas référencées
+comme provenant du SIG.
+
+Quand une synchronisation des contraintes est lancée, ces contraintes sont ignorées et
+restent dans le même état, même si elles ont le même groupe, sous-groupe, libellé ou texte 
+qu'une contrainte importée du SIG. Des contraintes peuvent donc être en doublon.
+
 .. _administration_geolocalisation_auto:
 
 ======================================================
