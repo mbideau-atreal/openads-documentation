@@ -185,10 +185,11 @@ Mise à jour de l'état des dossiers d'autorisations périmés
       }
 
 
+.. _web_services_ressource_maintenance_synchro_contrainte:
 
-==========================================================
+=============================================
 Synchronisation des contraintes depuis le SIG
-==========================================================
+=============================================
 
 .. http:post:: /openads/services/rest_entry.php/maintenance
 
@@ -227,6 +228,29 @@ métadonnées.<parametrage_document_numerise_type_traiter_metadonnees>`
         "module": "maj_metadonnees_documents_numerises",
       }
 
+
+.. _web_services_ressource_maintenance_geolocalisation_auto:
+
+======================================================
+Géolocalisation automatique des dossiers d'instruction
+======================================================
+
+Ce web service déclenche le même traitement que 
+:ref:`l'interface de mise à jour des
+métadonnées.<administration_geolocalisation_auto>`
+
+.. http:post:: /openads/services/rest_entry.php/maintenance
+
+   **Exemple de requête** :
+
+   .. sourcecode:: http
+      
+      POST /openads/services/rest_entry.php/maintenance HTTP/1.1
+      Host: localhost
+
+      {
+        "module": "update_missing_geolocation",
+      }
 
 
 .. _web_services_ressource_consultations:

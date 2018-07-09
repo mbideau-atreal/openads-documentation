@@ -30,6 +30,11 @@ Widget *Nouveau dossier*
 Widget *Autres dossiers*
 ########################
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 

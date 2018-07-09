@@ -80,6 +80,11 @@ Widget *Mes clôtures*
 - Visualiser la liste des recours affectés à l'utilisateur dont la date de clôture est proche
 - Accéder aux recours affectés à l'utilisateur dont la date de clôture est proche
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 

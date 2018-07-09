@@ -68,6 +68,11 @@ Widget *Alerte parquet*
 - Visualiser la liste des infractions de la collectivité qui n'ont pas de date transmission au parquet
 - Accéder aux infractions de la collectivité qui n'ont pas de date de transmission au parquet
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 

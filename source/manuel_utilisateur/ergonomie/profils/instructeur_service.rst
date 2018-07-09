@@ -83,6 +83,11 @@ Widget *Mes retours de commission*
 - Visualiser la liste des demandes de passages en commission
 - Accéder aux demandes de passages en commission
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 

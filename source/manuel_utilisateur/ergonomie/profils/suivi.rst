@@ -19,7 +19,12 @@ Fonctionnalités disponibles
 Tableau de bord
 ---------------
 
-Aucun widget.
+.. image:: dashboard_suivi.png
+
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
 
 Menu
 ----

@@ -68,6 +68,7 @@ Utilisation des options :
 * **option_simulation_taxes** : permet d'activer (*true*) ou non (*false*) :ref:`la simulation des taxes <instruction_simulation_taxes>` sur les dossiers d'instruction.
 * **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
 * **option_final_auto_instr_tacite_retour** : permet d'activer (*true*) ou désactiver (*false*) la finalisation automatique des instructions dites tacites (ajoutées automatiquement suite à des délais dépassés) ou dites retours (ajoutées automatiquement suite au suivi des dates).
+* **option_ws_synchro_contrainte** : permet d'activer (*true*) ou désactiver (*false*) le :ref:`web service<web_services_ressource_maintenance_synchro_contrainte>` de synchronisation des contraintes depuis le SIG. 
 
 .. note::
 
@@ -688,3 +689,102 @@ Le générateur
 (:menuselection:`Administration --> Options Avancées --> Générateur`)
 
 Le générateur de fichiers de l'application.
+
+.. _administration_synchronisation_contrainte:
+
+===============================
+Synchronisation des contraintes
+===============================
+
+(:menuselection:`Paramétrage Dossiers --> Dossiers --> Synchronisation Des Contraintes`)
+
+Le principe
+===========
+
+Ce menu permet de synchroniser les contraintes du SIG avec celles de l'application.
+openADS va récupérer l'ensemble des contraintes du SIG, et les comparer avec les
+contraintes déjà présentes dans la base de données de l'application, sur la base de leur
+identifiant unique de contrainte. Les contraintes présentes sur le SIG ne seront pas
+modifiées par openADS.
+Les informations suivantes de la contrainte sont récupérées du SIG : 
+
+* identifiant
+* groupe
+* sous-groupe
+* libelle
+* texte
+
+.. image:: contrainte_synchronisation.png
+
+* **X contrainte(s) ajoutée(s)** : Nombre de contraintes importées dans openADS à partir du SIG.
+* **X contrainte(s) modifiée(s)** : Nombre de contraintes déjà présentes dans openADS, mises à jour avec les dernières informations du SIG.
+* **X contrainte(s) archivée(s)** : Nombre de contraintes n'existant plus dans le SIG, archivées dans openADS.
+
+Les contraintes référencées comme venant du SIG
+===============================================
+
+Lorsque des contraintes sont importées dans openADS via la synchronisation des
+contraintes, elles sont marquées comme ayant été importées à partir du SIG (champ **Référence SIG** à *Oui*).
+
+Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure se
+présentent :
+
+* La contrainte existe sur le SIG mais pas dans openADS : elle est ajoutée.
+* La contrainte existe sur le SIG ET dans openADS : les champs **libellé**, **groupe**, **sous-groupe** et **texte** seront écrasés avec les valeurs du SIG.
+* La contrainte n'existe plus sur le SIG, mais est toujours présente dans openADS : elle est archivée en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
+
+Les contraintes n'étant pas référencées comme venant du SIG
+===========================================================
+
+Les contraintes créées manuellement dans l'application ne sont pas référencées
+comme provenant du SIG.
+
+Quand une synchronisation des contraintes est lancée, ces contraintes sont ignorées et
+restent dans le même état, même si elles ont le même groupe, sous-groupe, libellé ou texte 
+qu'une contrainte importée du SIG. Des contraintes peuvent donc être en doublon.
+
+.. _administration_geolocalisation_auto:
+
+======================================================
+Géolocalisation automatique des dossiers d'instruction
+======================================================
+(:menuselection:`Administration --> Options Avancées --> Géolocalisation des dossiers`)
+
+
+Le principe
+===========
+
+Ce menu permet de lancer la géolocalisation automatique sur chacun des dossiers d'instruction vérifiant toutes les caractéristiques suivantes: 
+- toutes les parcelles associées au dossier existent;
+- aucune valeur n'est affectée au centroïde. 
+
+Dans ce cas là, la géolocalisation effectue un calcul de l'emprise puis un calcul du centroïde.
+
+Ce procédé peut-être déclenché manuellement ou via un :ref:`web-service<web_services_ressource_maintenance_geolocalisation_auto>`. 
+
+
+L'utilisation
+=============
+
+Le formulaire affiche le nombre de dossier d'instruction à traiter. 
+
+Il suffit de cliquer sur le bouton pour lancer le traitement. 
+
+.. image:: administration_geolocalisation_auto.png
+
+
+Les messages de retour
+======================
+
+A la fin du traitement, un message est affiché à l'utilisateur. 
+Il contient les éléments suivants, classés par collectivité: 
+- le nombre de dossiers traités avec succès ;
+- le nombre de dossiers en erreur suite à: 
+
+  - une parcelle non-existante ;
+  - calcul de l'emprise impossible ;
+  - calcul du centroïde impossible.
+
+
+
+

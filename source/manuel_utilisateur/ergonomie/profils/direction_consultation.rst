@@ -25,6 +25,11 @@ Widget *Recherche accès direct*
 
 - Rechercher un dossier d'instruction par son identifiant
 
+Widget *Les derniers dossiers consultés*
+########################################
+
+- Visualiser la liste des derniers dossiers consultés
+
 Menu
 ----
 
