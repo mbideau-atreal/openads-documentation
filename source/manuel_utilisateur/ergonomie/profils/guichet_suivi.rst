@@ -57,6 +57,18 @@ Rubrique *Instruction*
 
 Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique instruction<profil_guichet_unique_rubrique_instruction>`)
 
+En plus des actions identiques :
+
+
+(Consultation) Tous les retours
+###############################
+
+- Visualiser la liste des dossiers d'instruction instruits dans la collectivité de l'instructeur connecté (si l'instructeur est affecté à la collectivité de niveau 2 alors la liste contient les DI de toutes les collectivtés) pour lesquels un avis a été rendu et qu'il n'a pas encore été lu.
+- Accéder à la fiche de visualisation de la consultation dont l'avis a été rendu dans le contexte du dossier d'instruction.
+
+La liste des autres actions est disponible dans la partie :ref:`Recherche du profil guichet unique<profil_guichet_unique_rubrique_instruction>`
+
+
 Rubrique *Suivi*
 ----------------
 
