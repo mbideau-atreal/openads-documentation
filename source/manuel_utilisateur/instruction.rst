@@ -552,6 +552,10 @@ Le clic sur le lien de l'édition dans le portlet d'actions contextuelles de la 
 
 L'instruction est à nouveau modifiable et supprimable.
 
+.. note::
+
+    Une instruction peut être finalisée automatiquement lors de son ajout si celle-ci est paramétrée ainsi (voir le :ref:`paramétrage des événements<parametrage_dossiers_evenement>`) ou si :ref:`l'option de finalisation automatique des retours et tacites<parametrage_parametre>` est activée.
+
 La mise à jour des dates de suivi depuis l'instruction
 ######################################################
 
