@@ -730,7 +730,7 @@ Quand on effectue une nouvelle synchronisation des contraintes, 3 cas de figure 
 présentent :
 
 * La contrainte existe sur le SIG mais pas dans openADS : elle est ajoutée.
-* La contrainte existe sur le SIG ET dans openADS : les champs **libellé**, **groupe**, **sous-groupe** et **texte** seront écrasés avec les valeurs du SIG.
+* La contrainte existe sur le SIG ET dans openADS : les champs **libellé**, **groupe** et **sous-groupe** seront écrasés avec les valeurs du SIG, le **texte** est écrasé seulement si une valeur est renseignée dans le SIG.
 * La contrainte n'existe plus sur le SIG, mais est toujours présente dans openADS : elle est archivée en mettant la date du jour de la synchronisation dans le champ **date de fin de validité**.
 
 Les contraintes n'étant pas référencées comme venant du SIG
