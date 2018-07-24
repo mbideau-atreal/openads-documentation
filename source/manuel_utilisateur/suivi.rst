@@ -175,7 +175,7 @@ Une fois le formulaire validé, trois cas de figures sont possibles :
   
   .. image:: suivi_bordereaux_message_telechargement.png
 
-La liste des bordereaux est paramétrable, elle est générée en récupérant les :ref:`états <parametrage_dossiers_om_etat_lettretype>` commençant par la chaîne de caractères *bordereau_*. Dans la majorité des cas, ces états font appel des :ref:`sous-états<administration_sousetat>` paramétrables également, afin d'afficher le résultat d'une requête SQL dans un tableau.
+La liste des bordereaux est paramétrable, elle est générée en récupérant les :ref:`états <parametrage_dossiers_om_etat_lettretype>` commençant par la chaîne de caractères *bordereau_*. Dans la majorité des cas, ces états font appel à des :ref:`sous-états<administration_sousetat>` paramétrables également, afin d'afficher le résultat d'une requête SQL dans un tableau.
 
 .. _suivi_bordereau_envoi_maire:
 
