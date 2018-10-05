@@ -111,7 +111,7 @@ Configuration des mails envoyés automatiquement aux services consultés :
 
   en remplaçant *[LIEN]* par :
 
-  *[SITE_WEB]* **/spg/direct_link.php?obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION>**
+  *[SITE_WEB]***/app/index.php?module=form&direct_link=true&obj=dossier_instruction&action=3&direct_field=dossier&direct_form=instruction&direct_action=3&direct_idx=<ID_INSTRUCTION>**
 
   où *[SITE_WEB]* est l'adresse de la racine du logiciel (par exemple https://openads.maville.fr).
 
