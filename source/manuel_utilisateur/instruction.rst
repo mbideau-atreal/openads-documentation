@@ -381,20 +381,12 @@ Pour que l'action soit disponible il faut que le dossier ne soit pas clôturé, 
 
 .. _instruction_portlet_regenerate_citizen_access_key:
 
-Régénérer manuellement la clé d'accès au portail citoyen
-========================================================
+Régénérer la clé d'accès au portail citoyen
+===========================================
 
 .. image:: instruction_portlet_regenerate_citizen_access_key.png
 
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs et demande une confirmation de la part de l'utilisateur.
-
-.. _instruction_portlet_regenerate_citizen_access_key_auto:
-
-Régénérer automatiquement la clé d'accès au portail citoyen
-===========================================================
-
-Il est possible de paramétrer la régénération automatique de la clé d'accès au portail citoyen, depuis le paramétrage d'un type de demande. (voir :ref:`parametrage_dossiers_demande_type`).
-Dans ce cas, l'ajout d'une demande de ce type pour un dossier donné génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable.
 
 =============================
 Gestion des pièces du dossier
