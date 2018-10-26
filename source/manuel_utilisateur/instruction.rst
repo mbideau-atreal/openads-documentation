@@ -39,6 +39,24 @@ Dans le fieldset **Enjeu** :
 * Le champ **contentieux** indique si au moins un dossier en cours **Infraction** ou **Recours** concerne une ou plusieurs parcelles du dossier.
   Le cas échéant le champ contiendra respectivement **RE** en orange et **IN** en rouge.
 
+Indicateur de dépôt électronique
+================================
+
+Dans le fieldset **Dossier d'instruction** :
+
+.. image:: instruction_dossier_depot_electronique.png
+
+* Devant le champ **demandeur**, la présence du pictogramme de dépôt électronique indique que le dossier a été déposé électroniquement.
+
+
+Indicateur de parcelle temporaire
+=================================
+
+Dans le fieldset **Localisation** :
+
+.. image:: instruction_dossier_parcelle_temporaire.png
+
+* Le champ **Parcelle temporaire**, indique qu'au moins une parcelle temporaire a été renseignée dans les références cadastrales saisies.
 
 .. _instruction_simulation_taxes:
 
@@ -381,20 +399,12 @@ Pour que l'action soit disponible il faut que le dossier ne soit pas clôturé, 
 
 .. _instruction_portlet_regenerate_citizen_access_key:
 
-Régénérer manuellement la clé d'accès au portail citoyen
-========================================================
+Régénérer la clé d'accès au portail citoyen
+===========================================
 
 .. image:: instruction_portlet_regenerate_citizen_access_key.png
 
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs et demande une confirmation de la part de l'utilisateur.
-
-.. _instruction_portlet_regenerate_citizen_access_key_auto:
-
-Régénérer automatiquement la clé d'accès au portail citoyen
-===========================================================
-
-Il est possible de paramétrer la régénération automatique de la clé d'accès au portail citoyen, depuis le paramétrage d'un type de demande. (voir :ref:`parametrage_dossiers_demande_type`).
-Dans ce cas, l'ajout d'une demande de ce type pour un dossier donné génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable.
 
 =============================
 Gestion des pièces du dossier
@@ -425,6 +435,12 @@ Les documents sont listés dans l'onglet "Pièces" et organisés par date et cat
 
 .. image:: piece_tab.png
 
+Si :ref:`l'option correspondante <parametrage_parametre>` est activée, tous les documents ajoutés sont automatiquement cachetés de manière numérique par:
+* **N° de permis** : Numéro du permis auquel est rattaché le document.
+* **N° de dossier** : Numéro du dossier auquel est rattaché le document. 
+* **Date de dépôt** : Date de création du document. 
+On appelle cela le trouillotage numérique. 
+
 Lors du clic sur le nom du document, le document sera ouvert en visualisation PDF.
 
 Pour ouvrir le formulaire de consultation de la pièce, il suffit de cliquer sur la flèche bleue à gauche ou sur le type du document à droite.
@@ -454,6 +470,34 @@ Les documents seront placés dans une archive zip qui sera proposée au téléch
 
     Selon le déploiement de l'application la création de cette archive peut être longue.
     Si le navigateur et fermé ou que l'utilisateur poursuit la navigation, la génération de l'archve se termine mais l'archive ne sera pas proposée au téléchargement.
+
+Constituer le dossier final
+===========================
+
+Un écran dédié permet de manipuler les pièces du dossier afin de rassembler celles qui constituent le dossier final. 
+
+Pour y accéder: depuis l'onglet Pièce(s) du dossier d'instruction, cliquer sur le sous-onglet "Toutes les pièces".
+L'ensemble de toutes les pièces, qu'elles aient été jointes ou générées s'affiche.
+
+.. image:: instruction_dossier_final.png
+
+Les pièces recommandées sont en surbrillance et sont les suivantes:
+* Les pièces du dépôt le plus récent, pour chaque nature de pièce;
+* Les PDF de retour de rendu d'avis non tacite (à l'exception des rendu 'pour information');
+* Les demandes d'avis avec rendu tacite. 
+
+Pour chacune des pièces listées, cliquer dessus permet d'en avoir un aperçu direct. 
+
+Pour sélectionner des pièces pour le dossier final, il suffit de les cocher puis de cliquer sur le bouton "Constituer le dossier final".
+
+D'autres boutons sont également disponibles: 
+* **Cocher les pièces recommandées**: Coche toutes les pièces recommandées.
+* **Cocher toutes les pièces** : Coche toutes les pièces. 
+* **RàZ** : Décoche toutes les pièces. 
+* **Télécharger toutes les pièces du dossier final**: Ce bouton apparait si le dossier final a déjà été constitué au moins une fois. Télécharge une archive contenant les pièces du dernier dossier final constitué.
+
+
+
 
 ========================
 Événements d'instruction
@@ -719,15 +763,21 @@ Messages
 
 .. image:: instruction_dossier_message_tab.png
 
-L'onglet **Message(s)** permet de lister et consulter tous les messages du dossier.
+L'onglet **Message(s)** permet d'ajouter, lister et consulter tous les messages du dossier.
 
-Les messages sont automatiquement ajoutés suite à des actions spécifiques, comme par exemple l'ajout de pièce numérisée, à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée.
+Les messages automatiquement ajoutés se font suite à des actions spécifiques, comme par exemple l'ajout de pièce numérisée, à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée.
 Lorsqu'une action notifiée est réalisée par un utilisateur différent de l'instructeur du dossier, alors le message de notification sera destiné à l'instructeur.
 Si cette action est réalisée par l'instructeur du dossier et que celui-ci fait partie de la même collectivité que celle du dossier, alors il n'y a pas besoin de message de notification.
 Dernier cas, si l'action est réalisée par l'instructeur du dossier et celui-ci n'est pas de la même collectivité que celle du dossier, alors le message de notification sera destinée à la collectivité du dossier.
 Pour éviter de multiplier les notifications, ne seront pas ajoutés les messages traitant d'une même action à la même date et dont le destinataire est identique à un message déjà existant et non lu.
 
-Une action disponible depuis son formulaire de consultation permet de le marquer comme lu :
+L'ajout d'un message manuel peut se faire par un utilisateur en ayant le droit. 
+Dans ce cas, la notification est gérée de la même manière que pour un message automatique. 
+La présence d'un message manuel sur un dossier est indiquée dans la colonne *message* du listing associé au widget des derniers dossiers déposés, suivant le paramétrage de celui-ci (voir :ref:`ici<administration_widget_derniers_dossiers_deposes>`)
+
+.. image:: instruction_dossier_message_form_ajouter.png
+
+Une action disponible depuis son formulaire de consultation permet de marquer un message comme lu :
 
 .. image:: instruction_dossier_message_form.png
 

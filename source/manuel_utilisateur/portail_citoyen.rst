@@ -42,6 +42,15 @@ Les informations à saisir sont :
   les récépissés, sur la lettre type "information d'accès citoyen", ou encore sur la fiche
   détaillée du dossier d'instruction, dans le champ pétitionnaire.
 
+
+.. _portail_citoyen_regenerate_citizen_access_key_auto:
+
+Régénérer automatiquement la clé d'accès au portail citoyen
+===========================================================
+
+Il est possible de paramétrer la régénération automatique de la clé d'accès au portail citoyen, depuis le paramétrage d'un type de demande. (voir :ref:`parametrage_dossiers_demande_type`).
+Dans ce cas, l'ajout d'une demande de ce type pour un dossier donné génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable.
+
 .. _portail_citoyen_fiche:
 
 La fiche "Suivi de mon dossier"

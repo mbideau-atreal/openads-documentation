@@ -566,6 +566,38 @@ Un lien *Afficher +* permet d'afficher le listing complet de dossiers visité au
 
 Ce widget est entièrement :ref:`paramétrable <administration_widget_dossier_consulter>` par l'administrateur.
 
+.. _widget_derniers_dossiers_deposes:
+
+Widget "Derniers dossiers déposés"
+----------------------------------
+
+.. image:: widget_derniers_dossiers_deposes.png
+
+L'objet de ce widget est de présenter une métrique des derniers dossiers déposés correspondant au paramétrage établi. 
+
+Ce widget est entièrement :ref:`paramétrable <administration_widget_derniers_dossiers_deposes>` par l'administrateur.
+
+A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
+
+Un lien *Voir +* permet d'afficher le listing complet des dossiers, triés par défaut par date de dépôt décroissante. 
+
+Le listing reprend les valeurs des paramètres *codes_datd*, *filtre_depot*, *filtre*.
+
+Il présente les informations suivantes:
+
+- le libellé du dossier d'instruction,
+- le nom du pétitionnaire,
+- la date de dépôt du dossier,
+- l'état à qualifier,
+- message : cliquer sur l'indicateur mène à l'onglet des messages,
+- dépôt électronique: cette colonne n'apparait que si filtre_depot est paramétré à "aucun"
+
+Et les données techniques suivantes:
+- nombre total de logements
+- surface de plancher construite totale
+- destination.
+
+Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation du dossier d'instruction.
 
 Profils
 =======

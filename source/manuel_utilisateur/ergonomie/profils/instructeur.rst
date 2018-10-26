@@ -76,6 +76,12 @@ Widget *Les derniers dossiers consultés*
 
 - Visualiser la liste des derniers dossiers consultés
 
+Widget *Les derniers dossiers déposés*
+########################################
+
+- Visualiser la liste des derniers dossiers déposés
+
+
 .. _profil_instructeur_rubrique_autorisation:
 
 Menu

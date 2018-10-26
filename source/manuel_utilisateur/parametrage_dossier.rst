@@ -236,10 +236,7 @@ Les informations à saisir sont :
   concerné par cette demande est marqué comme à qualifier si le type de demande
   est configuré comme nécessitant une qualification.
 * **régénérer la clé d'accès au portail citoyen** : indique si cette demande implique ou non la régénération de la clé d'accès au portail citoyen associée au dossier (voir
-  :ref:`instruction_portlet_regenerate_citizen_access_key_auto`).
-* **qualification** : lors de la saisie d'une nouvelle demande, le dossier
-  concerné par cette demande est marqué comme à qualifier si le type de demande
-  est configuré comme nécessitant une qualification.
+  :ref:`portail_citoyen_regenerate_citizen_access_key_auto`).
 * **événement** : c'est le type de l'événement d'instruction qui va être
   ajouté sur le dossier d'instruction au moment de la validation de la demande.
   Il est utilisé pour associer à la demande le bon récépissé, pour historiser

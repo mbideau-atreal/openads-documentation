@@ -35,6 +35,8 @@ Pour un nouveau dossier
 La demande va donner lieu à la création d'un nouveau dossier d'autorisation.
 La première étape est donc la sélection du type de dossier d'autorisation qui a
 été déposé.
+On sélectionne ensuite le type de dossier d'autorisation détaillé.
+Enfin, on sélectionne le type de demande. 
 
 
 
@@ -47,27 +49,13 @@ Pour un dossier en cours
 
 La demande va se rattacher à un dossier d'autorisation en cours de traitement,
 les dossiers affichés sont donc acceptés ou en cours d'instruction.
+Après avoir sélectionné le dossier existant sur lequel on souhaite créer une nouvelle demande, on sélectionne le type de demande. 
 
-
-.. _guichet_unique_nouvelle_demande_autre_dossier:
-
-Pour un autre dossier
-=====================
-
-(:menuselection:`Guichet Unique --> Nouvelle demande --> Autre dossier`)
-
-La demande va se rattacher à un dossier d'autorisation existant, peu importe leur 
-état. La première étape ici est donc la sélection/recherche du dossier d'instruction 
-sur lequel va porter la demande.
 
 Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
 ===========================================================================
 
-Après la sélection du type de la demande, une fenêtre d'aide à la saisie
-affichera la liste des documents obligatoires, chaque élément de la liste
-devra être coché afin de continuer la saisie (voir :ref:`parametrage_dossiers_demande_type` pour paramétrer cette liste de document).
-
-Le reste de la saisie consiste en la saisie des informations suivantes :
+Après la sélection du type de la demande,le reste de la saisie consiste en la saisie des informations suivantes :
 
 * la date de la demande
 * la ou les références cadastrales
@@ -75,12 +63,16 @@ Le reste de la saisie consiste en la saisie des informations suivantes :
 * le pétitionnaire principal 
 * un éventuel délégataire
 * le ou les éventuels co-demandeurs
+* la présence ou non d'au moins une parcelle temporaire parmi la ou les référence(s) cadastrale(s) saisie(s)
 
 Toutes les informations ne sont pas nécessairement disponibles pour la saisie,
 en effet si la saisie concerne un nouveau dossier alors la saisie du
 pétitionnaire est nécessaire alors que si la demande concerne un dossier
 existant les informations du pétitionnaire sont déjà préremplies et il n'est
 donc pas nécessaire de les saisir.
+
+Sous le bloc **Demandeurs**, un bloc affiche la liste des documents obligatoires paramétrés pour le type de demande considéré (voir :ref:`parametrage_dossiers_demande_type` pour paramétrer cette liste de document).
+
 
 
 .. _guichet_unique_nouvelle_demande_recepisse:
@@ -115,6 +107,10 @@ récépissé.
 .. _guichet_unique_nouvelle_demande_petitionnaire_frequent:
 
 Le lien du récépissé de la demande ouvre le document depuis le stockage au format PDF.
+
+La présence du pictogramme suivant sur la fiche de la demande indique qu'elle a été faite suite à un dépôt électronique:
+
+.. image:: instruction_dossier_depot_electronique.png
 
 ===================================
 Lister les pétitionnaires fréquents

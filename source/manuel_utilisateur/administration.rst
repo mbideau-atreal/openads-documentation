@@ -69,6 +69,7 @@ Utilisation des options :
 * **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
 * **option_final_auto_instr_tacite_retour** : permet d'activer (*true*) ou désactiver (*false*) la finalisation automatique des instructions dites tacites (ajoutées automatiquement suite à des délais dépassés) ou dites retours (ajoutées automatiquement suite au suivi des dates).
 * **option_ws_synchro_contrainte** : permet d'activer (*true*) ou désactiver (*false*) le :ref:`web service<web_services_ressource_maintenance_synchro_contrainte>` de synchronisation des contraintes depuis le SIG. 
+* **option_trouillotage** : permet d'activer (*true*) ou désactiver (*false*) le trouillotage automatique des pièces ajoutées à un dossier d'instruction. 
 
 .. note::
 
@@ -462,12 +463,35 @@ dossier_consulter
 =================
 
 Ce widget permet d’afficher les X derniers dossiers consultés.
-Un lien *Afficher +* permet d'afficher le listing complet de dossiers visité au sein du widget qui est limité à 20 dossiers.
+Un lien *Voir +* permet d'afficher le listing complet de dossiers visité au sein du widget qui est limité à 20 dossiers.
 Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_consulter>`.
 
 Un argument est paramétrable :
 
 * **nb_dossiers** - prend comme valeur un nombre entier, determine le nombre de dossier affiché dans le widget. Par défaut il sera égale à 5. Le nombre maximal de dossier consultés visibles dans le widget est de 20.
+
+.. _administration_widget_derniers_dossiers_deposes:
+
+derniers_dossiers_deposes
+=========================
+
+Ce widget présente une métrique des derniers dossiers déposés correspondant aux paramètres définis.
+Un lien *Voir +* permet d'afficher le listing complet des dossiers déposés, selon les paramètres du widget. 
+Les informations fonctionnelles sont disponibles :ref:`ici<widget_derniers_dossiers_deposes>`.
+
+Ce widget est par défaut affiché sur le tableau de bord des profils DIVISIONNAIRE. 
+
+Les arguments suivants sont paramétrables :
+
+* **nombre_de_jours** [par défaut *15*] - délai en jours avant la date du jour. Intervalle dans lequel est comprise la date de dépôt des dossiers qu'on souhaite prendre en compte.
+
+* **codes_datd** [par défaut tous les types sont affichés] - liste des types de dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+
+* **filtre_depot** [par défaut *aucun*] - indique le type de dépôt dont sont issus les dossiers pris en compte par le widget. Les filtres disponibles sont *depot_electronique*, *guichet* et *aucun*.
+
+* **filtre** [par défaut *division*] - les filtres disponibles sont *aucun*, *division* et *instructeur*.
+
+* **restreindre_msg_non_lus** [par défaut *false*] - paramètre l'apparition de l'indicateur de message dans la colonne *message* du listing. *false*: si au moins un message manuel est présent sur le dossier. *true*: si au moins un message manuel NON LU est présent sur le dossier.
 
 
 .. _administration_composition:

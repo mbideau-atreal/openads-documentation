@@ -56,6 +56,7 @@ Rubrique *Instruction*
 ----------------------
 
 Actions identiques à celles du profil "instructeur" (cf :ref:`Rubrique instruction<profil_instructeur_rubrique_instruction>`)
+Action supplémentaire sur un DI: Ajouter un message manuellement. 
 
 Rubrique *Contentieux*
 ----------------------
