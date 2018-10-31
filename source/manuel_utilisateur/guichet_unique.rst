@@ -108,10 +108,6 @@ récépissé.
 
 Le lien du récépissé de la demande ouvre le document depuis le stockage au format PDF.
 
-La présence du pictogramme suivant sur la fiche de la demande indique qu'elle a été faite suite à un dépôt électronique:
-
-.. image:: instruction_dossier_depot_electronique.png
-
 ===================================
 Lister les pétitionnaires fréquents
 ===================================
