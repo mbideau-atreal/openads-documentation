@@ -85,6 +85,10 @@ En plus des actions identiques :
     - Télécharger le récépissé de la demande
     - Modifier l'affectation de l'instructeur
 
+  - *Message(s)* :
+
+    - Ajouter un message manuellement
+
 Rubrique *Suivi*
 ----------------
 
