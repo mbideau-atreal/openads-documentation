@@ -25,6 +25,7 @@ Sommaire
     tests_ci.rst
     geolocalisation.rst
     document_numerise.rst
+    service_trouillotage_numerique.rst
     interface_avec_le_referentiel_erp.rst
     web_services.rst
     gestion_des_logs.rst
