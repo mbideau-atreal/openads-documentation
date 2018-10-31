@@ -406,11 +406,15 @@ Régénérer la clé d'accès au portail citoyen
 
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs et demande une confirmation de la part de l'utilisateur.
 
+.. _instruction_document_numerise:
+
 =============================
 Gestion des pièces du dossier
 =============================
 
 Chaque dossier d'instruction peut avoir plusieurs documents numérisés.
+
+.. _instruction_document_numerise_add:
 
 Ajouter une pièce
 =================
@@ -435,11 +439,13 @@ Les documents sont listés dans l'onglet "Pièces" et organisés par date et cat
 
 .. image:: piece_tab.png
 
-Si :ref:`l'option correspondante <parametrage_parametre>` est activée, tous les documents ajoutés sont automatiquement cachetés de manière numérique par:
+Si :ref:`l'option correspondante <parametrage_parametre>` est activée, tous les documents ajoutés sont automatiquement cachetés de manière numérique par :
+
 * **N° de permis** : Numéro du permis auquel est rattaché le document.
-* **N° de dossier** : Numéro du dossier auquel est rattaché le document. 
-* **Date de dépôt** : Date de création du document. 
-On appelle cela le trouillotage numérique. 
+* **N° de dossier** : Numéro du dossier auquel est rattaché le document.
+* **Date de dépôt** : Date de création du document.
+
+On appelle cela le trouillotage numérique.
 
 Lors du clic sur le nom du document, le document sera ouvert en visualisation PDF.
 

@@ -69,7 +69,7 @@ Utilisation des options :
 * **option_previsualisation_edition** : permet d'activer (*true*) ou non (*false*) :ref:`la prévisualisation des éditions <previsualisation_edition>` sur les événements d'instruction du dossier.
 * **option_final_auto_instr_tacite_retour** : permet d'activer (*true*) ou désactiver (*false*) la finalisation automatique des instructions dites tacites (ajoutées automatiquement suite à des délais dépassés) ou dites retours (ajoutées automatiquement suite au suivi des dates).
 * **option_ws_synchro_contrainte** : permet d'activer (*true*) ou désactiver (*false*) le :ref:`web service<web_services_ressource_maintenance_synchro_contrainte>` de synchronisation des contraintes depuis le SIG. 
-* **option_trouillotage** : permet d'activer (*true*) ou désactiver (*false*) le trouillotage automatique des pièces ajoutées à un dossier d'instruction. 
+* **option_trouillotage_numerique** : permet d'activer (*true*) ou désactiver (*false*) le trouillotage automatique des :ref:`pièces ajoutées à un dossier d'instruction<instruction_document_numerise_add>`. 
 
 .. note::
 
