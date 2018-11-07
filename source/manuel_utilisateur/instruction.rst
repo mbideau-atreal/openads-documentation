@@ -480,30 +480,29 @@ Les documents seront placés dans une archive zip qui sera proposée au téléch
 Constituer le dossier final
 ===========================
 
-Un écran dédié permet de manipuler les pièces du dossier afin de rassembler celles qui constituent le dossier final. 
+Un écran dédié permet de manipuler les pièces du dossier afin de rassembler celles qui constituent le dossier final.
 
-Pour y accéder: depuis l'onglet Pièce(s) du dossier d'instruction, cliquer sur le sous-onglet "Toutes les pièces".
-L'ensemble de toutes les pièces, qu'elles aient été jointes ou générées s'affiche.
+Pour y accéder, depuis l'onglet **Pièce(s)** du dossier d'instruction, cliquer sur le bouton de bascule **Toutes les pièces**.
+L'ensemble de toutes les pièces s'affiche, qu'elles aient été jointes ou générées.
 
 .. image:: instruction_dossier_final.png
 
-Les pièces recommandées sont en surbrillance et sont les suivantes:
-* Les pièces du dépôt le plus récent, pour chaque nature de pièce;
-* Les PDF de retour de rendu d'avis non tacite (à l'exception des rendu 'pour information');
-* Les demandes d'avis avec rendu tacite. 
+Les pièces recommandées sont en surbrillance comme l'indique la légende, les critères sont les suivants :
 
-Pour chacune des pièces listées, cliquer dessus permet d'en avoir un aperçu direct. 
+* les pièces du dépôt le plus récent, pour chaque nature de pièce ;
+* les PDF de retour de rendu d'avis non tacite (à l'exception des rendu "pour information") ;
+* les demandes d'avis avec rendu tacite.
 
-Pour sélectionner des pièces pour le dossier final, il suffit de les cocher puis de cliquer sur le bouton "Constituer le dossier final".
+Pour chacune des pièces listées, cliquer sur le nom du fichier permet d'en avoir un aperçu direct. 
 
-D'autres boutons sont également disponibles: 
-* **Cocher les pièces recommandées**: Coche toutes les pièces recommandées.
-* **Cocher toutes les pièces** : Coche toutes les pièces. 
-* **RàZ** : Décoche toutes les pièces. 
-* **Télécharger toutes les pièces du dossier final**: Ce bouton apparait si le dossier final a déjà été constitué au moins une fois. Télécharge une archive contenant les pièces du dernier dossier final constitué.
+Pour sélectionner des pièces pour le dossier final, il suffit de les cocher puis de cliquer sur le bouton **Constituer le dossier final**.
 
+D'autres boutons sont également disponibles :
 
-
+* **Cocher les pièces recommandées** coche toutes les pièces recommandées ;
+* **Cocher toutes les pièces** coche toutes les pièces ;
+* **RàZ** décoche toutes les pièces ;
+* **Télécharger toutes les pièces du dossier final** ce bouton apparait si le dossier final a déjà été constitué au moins une fois et permet de télécharger une archive contenant les pièces du dernier dossier final constitué.
 
 ========================
 Événements d'instruction
