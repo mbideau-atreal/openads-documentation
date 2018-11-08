@@ -493,6 +493,18 @@ Les pièces recommandées sont en surbrillance comme l'indique la légende, les 
 * les PDF de retour de rendu d'avis non tacite (à l'exception des rendu "pour information") ;
 * les demandes d'avis avec rendu tacite.
 
+
+Les pièces recommandées sont indiquées en surbrillance comme précisé par la légende :
+
+* concernant les documents déposés via l'onglet **Pièce(s)** du dossier d'instruction, elles correspondent aux pièces du dépôt le plus récent pour chaque nature de pièce ;
+* concernant les document générés (hors documents de consultation), pour chaque nature de pièce il s'agit de la plus récente ;
+* concernant les documents de consultation, sont recommandé(e)s :
+
+    * les pièces jointes aux retours de consultations non tacites ;
+    * les documents générés lors d'une demande de consultation tacite.
+
+Cependant, les pièces des consultations "pour information" ne sont jamais recommandées. 
+
 Pour chacune des pièces listées, cliquer sur le nom du fichier permet d'en avoir un aperçu direct. 
 
 Pour sélectionner des pièces pour le dossier final, il suffit de les cocher puis de cliquer sur le bouton **Constituer le dossier final**.
