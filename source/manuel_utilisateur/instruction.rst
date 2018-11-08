@@ -509,7 +509,7 @@ Cependant, les pièces des consultations "pour information" ne sont jamais recom
 
 .. note::
 
-    Le paramètre :ref:`**id_avis_consultation_tacite**<parametrage_parametre_identifiants>` doit être renseigné pour identifier l'avis de consultation tacite.
+    Le paramètre :ref:`id_avis_consultation_tacite<parametrage_parametre_identifiants>` doit être renseigné pour identifier l'avis de consultation désigant le tacite.
 
 Pour chacune des pièces listées, cliquer sur le nom du fichier permet d'en avoir un aperçu direct.
 
