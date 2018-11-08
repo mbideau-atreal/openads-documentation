@@ -505,9 +505,13 @@ Les pièces recommandées sont indiquées en surbrillance comme précisé par la
     * les pièces jointes aux retours de consultations non tacites ;
     * les documents générés lors d'une demande de consultation tacite.
 
-Cependant, les pièces des consultations "pour information" ne sont jamais recommandées. 
+Cependant, les pièces des consultations "pour information" ne sont jamais recommandées.
 
-Pour chacune des pièces listées, cliquer sur le nom du fichier permet d'en avoir un aperçu direct. 
+.. note::
+
+    Le paramètre :ref:`**id_avis_consultation_tacite**<parametrage_parametre_identifiants>` doit être renseigné pour identifier l'avis de consultation tacite.
+
+Pour chacune des pièces listées, cliquer sur le nom du fichier permet d'en avoir un aperçu direct.
 
 Pour sélectionner des pièces pour le dossier final, il suffit de les cocher puis de cliquer sur le bouton **Constituer le dossier final**.
 
