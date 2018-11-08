@@ -477,6 +477,8 @@ Les documents seront placés dans une archive zip qui sera proposée au téléch
     Selon le déploiement de l'application la création de cette archive peut être longue.
     Si le navigateur et fermé ou que l'utilisateur poursuit la navigation, la génération de l'archve se termine mais l'archive ne sera pas proposée au téléchargement.
 
+.. _instruction_document_numerise_constituer_dossier_final:
+
 Constituer le dossier final
 ===========================
 
