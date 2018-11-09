@@ -422,7 +422,7 @@ Ajouter une pièce
 Pour ajouter un document, il faut cliquer sur la mention "+ Ajouter un document".
 Seuls les documents au format PDF sont autorisés.
 
-.. image:: piece_form.png
+.. image:: instruction_document_numerise_form_ajouter.png
 
 Dans le formulaire qui apparaît tous les champs sont obligatoires :
 
@@ -437,7 +437,7 @@ Exemple : pour 3 ajouts de pièces de type **Arrêté retour préfecture** le 14
 
 Les documents sont listés dans l'onglet "Pièces" et organisés par date et catégorie.
 
-.. image:: piece_tab.png
+.. image:: instruction_document_numerise_tab.png
 
 Si :ref:`l'option correspondante <parametrage_parametre>` est activée, tous les documents ajoutés sont automatiquement cachetés de manière numérique par :
 
@@ -464,17 +464,16 @@ Télécharger toutes les pièces
 
 Il est possible de télécharger l'ensemble des pièces du dossier en cliquant sur le bouton correspondant :
 
-.. image:: bouton_telecharger_archive.png
+.. image:: instruction_document_numerise_btn_telecharger_archive.png
 
 Après avoir cliqué sur le lien un message de confirmation vous demandera de valider votre téléchargement.
 Les documents seront placés dans une archive zip qui sera proposée au téléchargement.
 
-.. image:: lien_telecharger_archive.png
-
+.. image:: instruction_document_numerise_lien_telecharger_archive.png
 
 .. note::
 
-    Selon le déploiement de l'application la création de cette archive peut être longue.
+    Selon le déploiement de l'application, la création de cette archive peut être longue.
     Si le navigateur et fermé ou que l'utilisateur poursuit la navigation, la génération de l'archve se termine mais l'archive ne sera pas proposée au téléchargement.
 
 .. _instruction_document_numerise_constituer_dossier_final:
@@ -487,7 +486,7 @@ Un écran dédié permet de manipuler les pièces du dossier afin de rassembler 
 Pour y accéder, depuis l'onglet **Pièce(s)** du dossier d'instruction, cliquer sur le bouton de bascule **Toutes les pièces**.
 L'ensemble de toutes les pièces s'affiche, qu'elles aient été jointes ou générées.
 
-.. image:: instruction_dossier_final.png
+.. image:: instruction_document_numerise_dossier_final_form.png
 
 Les pièces recommandées sont en surbrillance comme l'indique la légende, les critères sont les suivants :
 
@@ -788,17 +787,26 @@ Messages
 
 L'onglet **Message(s)** permet d'ajouter, lister et consulter tous les messages du dossier.
 
+Ajouter un message automatiquement
+==================================
+
 Les messages automatiquement ajoutés se font suite à des actions spécifiques, comme par exemple l'ajout de pièce numérisée, à condition que l'option :ref:`'option_notification_piece_numerisee' <parametrage_parametre>` soit activée.
 Lorsqu'une action notifiée est réalisée par un utilisateur différent de l'instructeur du dossier, alors le message de notification sera destiné à l'instructeur.
 Si cette action est réalisée par l'instructeur du dossier et que celui-ci fait partie de la même collectivité que celle du dossier, alors il n'y a pas besoin de message de notification.
 Dernier cas, si l'action est réalisée par l'instructeur du dossier et celui-ci n'est pas de la même collectivité que celle du dossier, alors le message de notification sera destinée à la collectivité du dossier.
 Pour éviter de multiplier les notifications, ne seront pas ajoutés les messages traitant d'une même action à la même date et dont le destinataire est identique à un message déjà existant et non lu.
 
+Ajouter un message manuellement
+===============================
+
 L'ajout d'un message manuel peut se faire par un utilisateur en ayant le droit. 
 Dans ce cas, la notification est gérée de la même manière que pour un message automatique. 
 La présence d'un message manuel sur un dossier est indiquée dans la colonne *message* du listing associé au widget des derniers dossiers déposés, suivant le paramétrage de celui-ci (voir :ref:`ici<administration_widget_derniers_dossiers_deposes>`)
 
 .. image:: instruction_dossier_message_form_ajouter.png
+
+Marquer comme lu / non lu
+=========================
 
 Une action disponible depuis son formulaire de consultation permet de marquer un message comme lu :
 
