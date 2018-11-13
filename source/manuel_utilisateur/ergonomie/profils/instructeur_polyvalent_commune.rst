@@ -189,6 +189,7 @@ peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas af
     - Supprimer une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
+    - Constituer le dossier final.
 
   - *DA* :
 

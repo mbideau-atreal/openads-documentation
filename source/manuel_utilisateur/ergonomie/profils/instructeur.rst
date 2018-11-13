@@ -267,6 +267,7 @@ Action(s) disponible(s) par onglet :
     - Accéder à la fiche de visualisation d'une pièce.
     - Télécharger le fichier d'une pièce.
     - Télécharger toutes les pièces du dossier d'instruction.
+    - Constituer le dossier final.
 
   - *DA* :
 

@@ -488,23 +488,15 @@ L'ensemble de toutes les pièces s'affiche, qu'elles aient été jointes ou gén
 
 .. image:: instruction_document_numerise_dossier_final_form.png
 
-Les pièces recommandées sont en surbrillance comme l'indique la légende, les critères sont les suivants :
+Les pièces recommandées sont indiquées en surbrillance. 
+Une pièce est identifée comme *recommandée* si elle respecte une des règles suivantes :
 
-* les pièces du dépôt le plus récent, pour chaque nature de pièce ;
-* les PDF de retour de rendu d'avis non tacite (à l'exception des rendu "pour information") ;
-* les demandes d'avis avec rendu tacite.
-
-
-Les pièces recommandées sont indiquées en surbrillance comme précisé par la légende :
-
-* concernant les documents déposés via l'onglet **Pièce(s)** du dossier d'instruction, elles correspondent aux pièces du dépôt le plus récent pour chaque nature de pièce ;
-* concernant les document générés (hors documents de consultation), pour chaque nature de pièce il s'agit de la plus récente ;
-* concernant les documents de consultation, sont recommandé(e)s :
+* tous les documents déposés via l'onglet **Pièces déposées** sont recommandés. Dans le cas où il en existe plusieurs du même type, seul le plus récent est recommandé ;
+* à l'exception des consultations, tous les documents générés lors de l'instruction du dossier sont recommandés. Dans le cas où il en existe plusieurs du même type, seul le plus récent est recommandé ;
+* pour les documents issus des consultations, les pièces des consultations *pour information* ne sont jamais recommandées. Sont recommandés :
 
     * les pièces jointes aux retours de consultations non tacites ;
     * les documents générés lors d'une demande de consultation tacite.
-
-Cependant, les pièces des consultations "pour information" ne sont jamais recommandées.
 
 .. note::
 
@@ -512,14 +504,18 @@ Cependant, les pièces des consultations "pour information" ne sont jamais recom
 
 Pour chacune des pièces listées, cliquer sur le nom du fichier permet d'en avoir un aperçu direct.
 
-Pour sélectionner des pièces pour le dossier final, il suffit de les cocher puis de cliquer sur le bouton **Constituer le dossier final**.
+Pour sélectionner les pièces qui vont constituer dossier final, il suffit de les cocher.
 
-D'autres boutons sont également disponibles :
+Des boutons d'action par lot sont disponibles :
 
-* **Cocher les pièces recommandées** coche toutes les pièces recommandées ;
-* **Cocher toutes les pièces** coche toutes les pièces ;
-* **RàZ** décoche toutes les pièces ;
-* **Télécharger toutes les pièces du dossier final** ce bouton apparait si le dossier final a déjà été constitué au moins une fois et permet de télécharger une archive contenant les pièces du dernier dossier final constitué.
+* **Sélectionner les pièces recommandées** ;
+* **Tout sélectionner / désélectionner**.
+
+Ces actions influent uniquement sur la sélection des pièces.
+
+Pour enregistrer la sélection, cliquer sur le bouton **Constituer le dossier final**.
+
+Il est possible de télécharger l'intégralité des pièces du dossier final sous la forme d'une archive via le bouton **Télécharger le dossier final**. Ce bouton apparait si le dossier final a déjà été constitué au moins une fois.
 
 ========================
 Événements d'instruction
