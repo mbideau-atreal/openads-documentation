@@ -65,11 +65,11 @@ Librairie de l'application openADS `App <https://scm.adullact.net/anonscm/svn/op
    <iframe src="https://scm.adullact.net/anonscm/svn/openfoncier/trunk/tests/doc/app.html" width="100%" height="500px"></iframe>
 
 
-Librairie du framework openMairie `Core <https://scm.adullact.net/anonscm/svn/openfoncier/trunk/tests/doc/core.html>`_.
+Librairie du framework openMairie `Core <https://openmairie.github.io/openmairie.robotframework/>`_.
 
 .. raw:: html
 
-   <iframe src="https://scm.adullact.net/anonscm/svn/openfoncier/trunk/tests/doc/core.html" width="100%" height="500px"></iframe>
+   <iframe src="https://openmairie.github.io/openmairie.robotframework/" width="100%" height="500px"></iframe>
 
 
 Voici les documentations des librairies génériques utilisées par openADS :
