@@ -235,9 +235,7 @@ métadonnées.<parametrage_document_numerise_type_traiter_metadonnees>`
 Géolocalisation automatique des dossiers d'instruction
 ======================================================
 
-Ce web service déclenche le même traitement que 
-:ref:`l'interface de mise à jour des
-métadonnées.<administration_geolocalisation_auto>`
+Ce web service déclenche le même traitement que :ref:`l'interface de géolocalisation automatique des dossiers d'instruction.<administration_geolocalisation_auto>`
 
 .. http:post:: /openads/services/rest_entry.php/maintenance
 
