@@ -59,9 +59,7 @@ Utilisation des options :
 * **option_arrondissement** : la valeur par défaut est *false*. Les valeurs 
   possibles sont *true* ou *false*.
   Cette option indique si la commune est divisée en arrondissements.
-* **option_instructeur_division_numero_dossier** : la valeur par défaut est *false*. Les valeurs 
-  possibles sont *true* ou *false*.
-  Cette option indique si le numéro de dossier tient compte de la vision de l'instructeur auquel il est affecté.
+* **option_instructeur_division_numero_dossier** : la valeur par défaut est *false*. Les valeurs possibles sont *true* ou *false*. Cette option indique si le numéro de dossier tient compte de la division de l'instructeur auquel il est affecté.
 * **option_portail_acces_citoyen** : permet d'activer ou de désactiver l'accès au :ref:`portail citoyen <portail_citoyen>`.
 * **option_notification_piece_numerisee** : permet d'activer ou de désactiver l'ajout de :ref:`message de notification <instruction_dossier_message>`.
 * **option_date_depot_demande_defaut** : permet d'afficher (*true*) ou non (*false*) la date du jour dans le champ de la date de dépôt lors de l'ajout d'une demande. La valeur par défaut est *true*.
@@ -778,21 +776,22 @@ Géolocalisation automatique des dossiers d'instruction
 Le principe
 ===========
 
-Ce menu permet de lancer la géolocalisation automatique sur chacun des dossiers d'instruction vérifiant toutes les caractéristiques suivantes: 
-- toutes les parcelles associées au dossier existent;
-- aucune valeur n'est affectée au centroïde. 
+Ce menu permet de lancer la géolocalisation automatique sur chacun des dossiers d'instruction vérifiant toutes les caractéristiques suivantes:
+
+* toutes les parcelles associées au dossier existent ;
+* aucune valeur n'est affectée au centroïde.
 
 Dans ce cas là, la géolocalisation effectue un calcul de l'emprise puis un calcul du centroïde.
 
-Ce procédé peut-être déclenché manuellement ou via un :ref:`web-service<web_services_ressource_maintenance_geolocalisation_auto>`. 
+Ce procédé peut-être déclenché manuellement ou via un :ref:`web-service<web_services_ressource_maintenance_geolocalisation_auto>`.
 
 
 L'utilisation
 =============
 
-Le formulaire affiche le nombre de dossier d'instruction à traiter. 
+Le formulaire affiche le nombre de dossier d'instruction à traiter.
 
-Il suffit de cliquer sur le bouton pour lancer le traitement. 
+Il suffit de cliquer sur le bouton pour lancer le traitement.
 
 .. image:: administration_geolocalisation_auto.png
 
@@ -800,15 +799,13 @@ Il suffit de cliquer sur le bouton pour lancer le traitement.
 Les messages de retour
 ======================
 
-A la fin du traitement, un message est affiché à l'utilisateur. 
-Il contient les éléments suivants, classés par collectivité: 
-- le nombre de dossiers traités avec succès ;
-- le nombre de dossiers en erreur suite à: 
+A la fin du traitement, un message est affiché à l'utilisateur.
 
-  - une parcelle non-existante ;
-  - calcul de l'emprise impossible ;
-  - calcul du centroïde impossible.
+Il contient les éléments suivants, classés par collectivité:
 
+* le nombre de dossiers traités avec succès ;
+* le nombre de dossiers en erreur suite à :
 
-
-
+  * une parcelle non-existante ;
+  * le calcul de l'emprise impossible ;
+  * le calcul du centroïde impossible.
