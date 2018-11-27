@@ -426,6 +426,7 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_conten
 Un argument facultatif est paramétrable :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
+* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
 
 
 .. _administration_widget_dossier_contentieux_alerte_parquet:
@@ -438,7 +439,7 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_conten
 Un argument facultatif est paramétrable :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
-
+* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
 
 .. _administration_widget_rss:
 
