@@ -470,7 +470,7 @@ Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable 
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
-Par défaut le widget affiche seulement les infractions dont l'état est considéré comme en cours d'instruction. Il est possible de :ref:`paramétrer <administration_widget_dossier_contentieux_alerte_visite>` ce filtre en tant qu'administrateur.
+Par défaut le widget affiche seulement les infractions dont l'état est considéré comme en cours d'instruction. Il est possible de :ref:`paramétrer <administration_widget_dossier_contentieux_inaffectes>` ce filtre en tant qu'administrateur.
 
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.
 
