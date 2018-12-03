@@ -465,7 +465,7 @@ Orienté Contentieux.
 
 L'objet de ce widget est de présenter les cinq infractions les plus anciennes non-affectées à un technicien.
 
-Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossier_contentieux_inaffectes>` par l'administrateur) :
+Deux filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossier_contentieux_inaffectes>` par l'administrateur) :
 
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
