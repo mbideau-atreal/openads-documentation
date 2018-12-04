@@ -21,7 +21,7 @@ Mes infractions
 
 (:menuselection:`Contentieux --> Infractions --> Mes infractions`)
 
-Liste des infractions associées à l'utilisateur connecté  et uniquement les dossiers en cours.
+Liste des infractions associées à l'utilisateur connecté  et uniquement les infractions en cours.
 
 .. _contentieux_toutes_les_infractions:
 
