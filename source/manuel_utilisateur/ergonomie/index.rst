@@ -318,10 +318,11 @@ Widget "Infractions"
 Orienté Contentieux.
 
 L'objet de ce widget est de présenter les cinq infractions les plus récentes.
+Ce widget affiche seulement les infractions en cours si et seulement si l'argument "filtre" est "instructeur".
 
 Deux filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossier_contentieux_infraction>` par l'administrateur) :
 
-- filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
+- filtre par instructeur : on présente uniquement les dossiers dont l'état est considéré comme en cours d'instruction, dont il est spécifiquement instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
 
 A tout moment, au survol de l'icône d'information du widget, une description permet d'indiquer quels sont les paramètres appliqués sur le widget.

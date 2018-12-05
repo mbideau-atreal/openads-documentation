@@ -21,7 +21,8 @@ Mes infractions
 
 (:menuselection:`Contentieux --> Infractions --> Mes infractions`)
 
-Liste des infractions associées à l'utilisateur connecté.
+Liste des infractions dont l'état est considéré comme en cours d'instruction, associées à l'utilisateur connecté.
+
 
 .. _contentieux_toutes_les_infractions:
 
