@@ -318,7 +318,7 @@ Widget "Infractions"
 Orienté Contentieux.
 
 L'objet de ce widget est de présenter les cinq infractions les plus récentes.
-Ce widget n'affiche que les infractions en cours.
+Ce widget affiche seulement les infractions en cours si et seulement si l'argument "filtre" est "instructeur".
 
 Deux filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossier_contentieux_infraction>` par l'administrateur) :
 
