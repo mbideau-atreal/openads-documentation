@@ -68,6 +68,7 @@ Utilisation des options :
 * **option_final_auto_instr_tacite_retour** : permet d'activer (*true*) ou désactiver (*false*) la finalisation automatique des instructions dites tacites (ajoutées automatiquement suite à des délais dépassés) ou dites retours (ajoutées automatiquement suite au suivi des dates).
 * **option_ws_synchro_contrainte** : permet d'activer (*true*) ou désactiver (*false*) le :ref:`web service<web_services_ressource_maintenance_synchro_contrainte>` de synchronisation des contraintes depuis le SIG. 
 * **option_trouillotage_numerique** : permet d'activer (*true*) ou désactiver (*false*) le trouillotage automatique des :ref:`pièces ajoutées à un dossier d'instruction<instruction_document_numerise_add>`. 
+* **option_suppression_dossier_instruction** : permet d'activer (*true*) ou non (*false*) la suppression des dossiers d'instruction non instruits.
 
 .. note::
 

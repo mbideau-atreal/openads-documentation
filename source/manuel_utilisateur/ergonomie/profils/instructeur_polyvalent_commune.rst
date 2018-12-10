@@ -102,6 +102,7 @@ En plus des actions identiques :
     - Régénérer le récépissé (tant que le dossier n'est pas instruit)
     - Télécharger le récépissé de la demande
     - Modifier l'affectation de l'instructeur
+    - Supprimer le dossier d'instruction (sous plusieurs conditions)
 
 En plus des actions déjà disponibles sur les dossiers de sa division les instructeurs
 peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas affectés à leur division :

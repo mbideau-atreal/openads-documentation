@@ -59,6 +59,10 @@ Actions identiques à celles du profil guichet unique (cf :ref:`Rubrique instruc
 
 En plus des actions identiques :
 
+  - *DI* :
+
+    - Supprimer le dossier d'instruction (sous plusieurs conditions)
+
 
 (Consultation) Tous les retours
 ###############################

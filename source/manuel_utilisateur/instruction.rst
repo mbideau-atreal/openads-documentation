@@ -406,6 +406,26 @@ Régénérer la clé d'accès au portail citoyen
 
 L'action génère une nouvelle clé d'accès qui écrase l'ancienne, ce qui la rend inutilisable. Cette action n'est disponible que pour les administrateurs et demande une confirmation de la part de l'utilisateur.
 
+.. _instruction_portlet_delete:
+
+Supprimer le dossier d'instruction
+==================================
+
+L'action de suppression n'est disponible que sous plusieurs conditions :
+
+* l'option :ref:`**option_suppression_dossier_instruction**<parametrage_parametre>` est activée ;
+* l'utilisateur possède la **permission** d'utiliser cette action ;
+* le dossier d'instruction est considéré comme **non instruit**, c'est-à-dire qu'il ne possède qu'un événement d'instruction dont le type est différent de la valeur *affichage* et qu'il s'agit du récépissé de la demande ;
+* le dossier d'instruction est la **dernière version** en cours de l'autorisation ;
+* il s'agit de la dernière autorisation de sa **numérotation** (la numérotation se base sur le type du dossier d'autorisation, l'année, le code du département et le code de la commune).
+
+Cette action supprimera le dossier d'instruction ainsi que tous les enregistrements liés.
+Si le dossier d'instruction est un dossier initial alors le dossier d'autorisation lié est aussi supprimé, s'il s'agit d'une suppression d'un dossier d'instruction ajouté sur existant, alors le dossier d'autorisation est mis à jour.
+
+.. note::
+
+    Lors de la suppression d'un dossier d'instruction lié à un contentieux, il est nécessaire de supprimer le contentieux en premier lieu.
+
 .. _instruction_document_numerise:
 
 =============================
