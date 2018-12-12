@@ -425,7 +425,7 @@ dossier_contentieux_alerte_visite
 
 Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_contentieux_alerte_visite>`.
 
-Un argument facultatif est paramétrable :
+Deux arguments facultatifs sont paramétrables :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
 * **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
@@ -438,7 +438,7 @@ dossier_contentieux_alerte_parquet
 
 Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_contentieux_alerte_parquet>`.
 
-Un argument facultatif est paramétrable :
+Deux arguments facultatifs sont paramétrables :
 
 * **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
 * **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
