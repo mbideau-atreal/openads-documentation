@@ -781,7 +781,7 @@ Le principe
 
 Ce menu permet de lancer la géolocalisation automatique sur chacun des dossiers d'instruction vérifiant toutes les caractéristiques suivantes:
 
-* toutes les parcelles associées au dossier existent ;
+* il n'y a pas de parcelle temporaire sur le dossier d'instruction.
 * aucune valeur n'est affectée au centroïde.
 
 Dans ce cas là, la géolocalisation effectue un calcul de l'emprise puis un calcul du centroïde.
