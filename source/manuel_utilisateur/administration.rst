@@ -414,8 +414,11 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_conten
 
 Deux arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *aucun*] - les filtres disponibles sont *aucun* et *division*.
-* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
+* **filtre** [par défaut *aucun*] - les valeurs disponibles sont *aucun* et *division* ;
+* **dossier_encours** [par défaut *true*] - les valeurs disponibles sont :
+
+    * *true* affiche seulement les infractions dont l'état est considéré comme en cours d'instruction ;
+    * *false* affiche toutes les infractions.
 
 
 .. _administration_widget_dossier_contentieux_alerte_visite:
@@ -425,10 +428,13 @@ dossier_contentieux_alerte_visite
 
 Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_contentieux_alerte_visite>`.
 
-Un argument facultatif est paramétrable :
+Deux arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
-* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
+* **filtre** [par défaut *instructeur*] - les valeurs disponibles sont *aucun*, *instructeur* et *division* ;
+* **dossier_encours** [par défaut *true*] - les valeurs disponibles sont :
+
+    * *true* affiche seulement les infractions dont l'état est considéré comme en cours d'instruction ;
+    * *false* affiche toutes les infractions.
 
 
 .. _administration_widget_dossier_contentieux_alerte_parquet:
@@ -438,10 +444,13 @@ dossier_contentieux_alerte_parquet
 
 Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_contentieux_alerte_parquet>`.
 
-Un argument facultatif est paramétrable :
+Deux arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
-* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
+* **filtre** [par défaut *instructeur*] - les valeurs disponibles sont *aucun*, *instructeur* et *division* ;
+* **dossier_encours** [par défaut *true*] - les valeurs disponibles sont :
+
+    * *true* affiche seulement les infractions dont l'état est considéré comme en cours d'instruction ;
+    * *false* affiche toutes les infractions.
 
 .. _administration_widget_rss:
 
@@ -781,7 +790,7 @@ Le principe
 
 Ce menu permet de lancer la géolocalisation automatique sur chacun des dossiers d'instruction vérifiant toutes les caractéristiques suivantes:
 
-* toutes les parcelles associées au dossier existent ;
+* il n'y a pas de parcelle temporaire sur le dossier d'instruction.
 * aucune valeur n'est affectée au centroïde.
 
 Dans ce cas là, la géolocalisation effectue un calcul de l'emprise puis un calcul du centroïde.
