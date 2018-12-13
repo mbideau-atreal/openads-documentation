@@ -58,6 +58,17 @@ Dans le fieldset **Localisation** :
 
 * Le champ **Parcelle temporaire**, indique qu'au moins une parcelle temporaire a été renseignée dans les références cadastrales saisies.
 
+
+.. _instruction_definition_non_instruit:
+
+Définition d'un dossier d'instruction non instruit
+==================================================
+
+Un dossier d'instruction est définit comme **non instruit** lorsque :
+
+* les instructions appliquées au dossier sont de type *affichage* ;
+* la seule instruction appliquée qui ne soit pas de type *affichage*, est le recépissé.
+
 .. _instruction_simulation_taxes:
 
 =======================
@@ -356,9 +367,13 @@ Dans le contexte de la modification d'un dossier d'instruction on peut modifier 
 
 Régénérer le récépissé
 ======================
-* Disponible si l'utilisateur a un droit spécifique, s'il n'y a qu'un événement d'instruction sur le dossier et qu'il s'agit du récépissé de la demande.
-* Régénère l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
 
+Cette action du dossier d'instruction permet de regénèrer l'événement d'instruction du récépissé de la demande et affiche un lien pour le télécharger.
+
+L'action est disponible lorsque :
+
+* le profil de l'utilisateur possède la **permission spécifique** d'utiliser cette action ;
+* le dossier d'instruction est considéré comme **:ref:`non instruit<instruction_definition_non_instruit>`** ;
 
 .. _instruction_portlet_rapport_instruction:
 
@@ -413,9 +428,9 @@ Supprimer le dossier d'instruction
 
 L'action de suppression n'est disponible que sous plusieurs conditions :
 
-* l'option :ref:`**option_suppression_dossier_instruction**<parametrage_parametre>` est activée ;
-* l'utilisateur possède la **permission** d'utiliser cette action ;
-* le dossier d'instruction est considéré comme **non instruit**, c'est-à-dire qu'il ne possède qu'un événement d'instruction dont le type est différent de la valeur *affichage* et qu'il s'agit du récépissé de la demande ;
+* l'option **:ref:`option_suppression_dossier_instruction<parametrage_parametre>`** est activée ;
+* le profil de l'utilisateur possède la **permission** d'utiliser cette action ;
+* le dossier d'instruction est considéré comme **:ref:`non instruit<instruction_definition_non_instruit>`** ;
 * le dossier d'instruction est la **dernière version** en cours de l'autorisation ;
 * il s'agit de la dernière autorisation de sa **numérotation** (la numérotation se base sur le type du dossier d'autorisation, l'année, le code du département et le code de la commune).
 
@@ -425,6 +440,14 @@ Si le dossier d'instruction est un dossier initial alors le dossier d'autorisati
 .. note::
 
     Lors de la suppression d'un dossier d'instruction lié à un contentieux, il est nécessaire de supprimer le contentieux en premier lieu.
+    
+.. note::
+
+    La suppression ne prend pas en compte les potentielles services tiers référencent le dossier d'instruction, voici quelques exemples :
+    
+    * les fichiers stockés des enregistrements liés ;
+    * la référence et les liens de redirection au dossier d'instruction dans le SIG connecté ;
+    * il n'y a pas de message transmis au référentiel ERP pour prévenir de la suppression
 
 .. _instruction_document_numerise:
 
