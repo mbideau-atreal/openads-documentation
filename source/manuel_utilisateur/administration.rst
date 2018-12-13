@@ -414,8 +414,11 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_conten
 
 Deux arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *aucun*] - les filtres disponibles sont *aucun* et *division*.
-* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
+* **filtre** [par défaut *aucun*] - les valeurs disponibles sont *aucun* et *division* ;
+* **dossier_encours** [par défaut *true*] - les valeurs disponibles sont :
+
+    * *true* affiche seulement les infractions dont l'état est considéré comme en cours d'instruction ;
+    * *false* affiche toutes les infractions.
 
 
 .. _administration_widget_dossier_contentieux_alerte_visite:
@@ -427,8 +430,11 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_conten
 
 Deux arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
-* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
+* **filtre** [par défaut *instructeur*] - les valeurs disponibles sont *aucun*, *instructeur* et *division* ;
+* **dossier_encours** [par défaut *true*] - les valeurs disponibles sont :
+
+    * *true* affiche seulement les infractions dont l'état est considéré comme en cours d'instruction ;
+    * *false* affiche toutes les infractions.
 
 
 .. _administration_widget_dossier_contentieux_alerte_parquet:
@@ -440,8 +446,11 @@ Les informations fonctionnelles sont disponibles :ref:`ici<widget_dossier_conten
 
 Deux arguments facultatifs sont paramétrables :
 
-* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *instructeur* et *division*.
-* **dossier_encours** [par défaut *true*] - prend comme valeur *true* (affiche seulement les infractions dont l'état est considéré comme en cours d'instruction) ou *false*.
+* **filtre** [par défaut *instructeur*] - les valeurs disponibles sont *aucun*, *instructeur* et *division* ;
+* **dossier_encours** [par défaut *true*] - les valeurs disponibles sont :
+
+    * *true* affiche seulement les infractions dont l'état est considéré comme en cours d'instruction ;
+    * *false* affiche toutes les infractions.
 
 .. _administration_widget_rss:
 
