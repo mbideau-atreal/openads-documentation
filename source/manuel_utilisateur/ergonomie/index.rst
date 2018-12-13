@@ -466,7 +466,7 @@ Orienté Contentieux.
 
 L'objet de ce widget est de présenter les cinq infractions les plus anciennes non-affectées à un technicien.
 
-Deux arguments sont disponibles sur ce widget (les arguments sont :ref:`paramétrable <administration_widget_dossier_contentieux_inaffectes>` par l'administrateur) :
+Deux valeurs sont disponibles pour l'argument **filtre** sur ce widget (cet argument est :ref:`paramétrable <administration_widget_dossier_contentieux_inaffectes>` par l'administrateur) :
 
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
 - aucun filtre : tous les dossiers auxquels l'utilisateurs a accès (si l'utilisateur appartient à une commune niveau mono, alors l'utilisateur n'a accès qu'aux dossiers de sa commune et si l'utilisateur appartient à une commune multi, alors l'utilisateur a accès à tous les dossiers).
@@ -496,7 +496,7 @@ Orienté Contentieux.
 
 L'objet de ce widget est de présenter les cinq infractions les plus anciennes pour lesquelles la date de réception est dépassée depuis plus de 3 mois et dont la date de première visite n'est pas saisie.
 
-Trois arguments sont disponibles sur ce widget (les arguments sont :ref:`paramétrable <administration_widget_dossier_contentieux_alerte_visite>` par l'administrateur) :
+Trois valeurs sont disponibles pour l'argument **filtre** sur ce widget (cet argument est :ref:`paramétrable <administration_widget_dossier_contentieux_alerte_visite>` par l'administrateur) :
 
 - filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
@@ -527,7 +527,7 @@ Orienté Contentieux.
 
 L'objet de ce widget est de présenter les cinq infractions les plus anciennes pour lesquelles la date de réception est dépassée depuis plus de 9 mois et dont la date de transmission au parquet n'est pas saisie.
 
-Trois arguments sont disponibles sur ce widget (les arguments sont :ref:`paramétrable <administration_widget_dossier_contentieux_alerte_parquet>` par l'administrateur) :
+Trois valeurs sont disponibles pour l'argument **filtre** sur ce widget (cet argument est :ref:`paramétrable <administration_widget_dossier_contentieux_alerte_parquet>` par l'administrateur) :
 
 - filtre par instructeur : on présente uniquement les dossiers dont il est spécifiquement instructeur.
 - filtre par division : on présente tous les dossiers de la division de l'instructeur.
