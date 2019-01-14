@@ -592,8 +592,10 @@ Dates de suivi chronologique de l'événement d'instruction.
 Compléments
 ===========
 
-Les champs de complément sont composés d'un éditeur riche permettant une mise en
-page complexe.
+Les champs de complément permettent l'introduction d'un texte personnalisé dans
+l'édition.
+
+Ils sont composés d'un éditeur riche permettant une mise en page complexe.
 
 Il est possible d'ajouter des compléments d'informations pour les événements 
 d'instruction depuis les blocs "Complément" et "Complément 2".
@@ -614,6 +616,59 @@ Si l'option **consultation** de l'événement est activée lors de son
 **automatique** disponible en bas du formulaire va ajouter les consultations
 avec leurs avis.
 
+.. note:: Si le mode :ref:`redaction_libre` est activé, les champs *Compléments* sont remplacés par un unique champs *Corps*
+
+
+.. _previsualisation_edition:
+
+Prévisualisation de l'édition
+=============================
+
+Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition**
+est activé pour la collectivité du dossier d'instruction en contexte, alors le
+rendu du PDF sur le formulaire de modification des événements d'instruction qui
+ont une lettre type associée est affiché. Après avoir modifié un complément, on
+peut regénérer l'édition en cliquant sur *Actualiser*.
+
+.. image:: instruction_previsualisation_edition.png
+
+.. note:: Si la fenêtre du navigateur a une **résolution horizontale inférieure à 1280 pixels**, alors **la prévisualisation ne s'affichera pas "à côté"** des champs de modification. Dans ce cas, pour l'afficher il faudra alors cliquer sur le bouton *Prévisualiser*, puis sur le bouton *Rédaction* pour revenir à la rédaction (écran précédent).
+
+
+.. _redaction_libre:
+
+Rédaction libre
+===============
+
+Si le :ref:`paramètre<parametrage_parametre>` **option_redaction_libre** est
+activé pour la collectivité du dossier d'instruction en contexte, alors apparait
+un nouveau bouton *Rédaction libre* du Portlet de l'instruction.
+
+.. image:: instruction_redaction_libre_bouton_portlet.png
+
+Lorsque la **Rédaction libre** est cliquée/activée, cela permet de modifier
+manuellement totalement la lettre type associée (PDF) en utilisant le champs
+*Corps* remplaçant alors les champs :ref:`instruction_complement` (décris ci-dessus
+).
+
+.. image:: instruction_redaction_libre_bouton_modifier_portlet.png
+
+.. image:: instruction_redaction_libre_champs_corps.png
+
+Lors du passage en mode **Rédaction libre**, la lettre type actuelle (générée
+grâce au modèle de la :ref:`admin_lettre_type`, des :ref:`instruction_complement` et des
+champs de fusion), sera entièrement dupliquée dans le champs *Corps*.
+Les champs de fusion continueront à être fonctionnels.
+
+Si l'on ne souhaite plus être en **Redaction libre** et revenir à un mode
+*"classique"*, il suffit de cliquer sur le bouton *Rédaction par compléments* du
+Portlet de l'instruction.
+
+.. image:: instruction_redaction_libre_bouton_complements_portlet.png
+
+.. warning:: En revenant à une **Rédaction par compléments**, tout le contenu qui aura été écrit manuellement en mode **Rédaction libre** sera perdu.
+
+
 Suppression
 ===========
 
@@ -625,14 +680,6 @@ ces critères :
  - les dates suivantes ne sont pas renseignées : envoi pour signature, retour de signature, envoi RAR, re­tour RAR, envoi au contrôle légalité, retour du contrôle légalité
  - l'événement lié n’est pas de type « retour »
 
-.. _previsualisation_edition:
-
-Prévisualisation de l'édition
-=============================
-
-Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition** est activé pour la collectivité du dossier d'instruction en contexte, alors le rendu du PDF sur le formulaire de modification des événements d'instruction qui ont une lettre type associée est affiché. Après avoir modifié un complément, on peut regénérer l'édition en cliquant sur *Actualiser*.
-
-.. image:: instruction_previsualisation_edition.png
 
 ============
 Finalisation
