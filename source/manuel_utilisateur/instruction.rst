@@ -428,9 +428,9 @@ Supprimer le dossier d'instruction
 
 L'action de suppression n'est disponible que sous plusieurs conditions :
 
-* l'option **:ref:`option_suppression_dossier_instruction<parametrage_parametre>`** est activée ;
+* l'option **:ref:`option_suppression_dossier_instruction <parametrage_parametre>`** est activée ;
 * le profil de l'utilisateur possède la **permission** d'utiliser cette action ;
-* le dossier d'instruction est considéré comme **:ref:`non instruit<instruction_definition_non_instruit>`** ;
+* le dossier d'instruction est considéré comme **:ref:`non instruit <instruction_definition_non_instruit>`** ;
 * le dossier d'instruction est la **dernière version** en cours de l'autorisation ;
 * il s'agit de la dernière autorisation de sa **numérotation** (la numérotation se base sur le type du dossier d'autorisation, l'année, le code du département et le code de la commune).
 
