@@ -564,17 +564,36 @@ Il est possible de télécharger l'intégralité des pièces du dossier final so
 Événements d'instruction
 ========================
 
+Ajout
+=====
+
+.. image:: instruction_form_ajout.png
+
+Pour ajouter un évènement d'instruction, il suffit de saisir:
+
+* le type d'évènement
+* la date de l'évènement
+* (\*) le signataire
+* (\*) le type de rédaction (*libre* ou par *compléments*)
+
+(\*) Affichés ou non selon le type d'évènement.
+
+.. note:: À partir de la version 4.10.0, il y a un masquage des champs inutiles à cette étape d'ajout (dates de suivi et compléments)
+
+Modification
+============
+
 .. image:: instruction_form_edition.png
 
 Événement
-=========
+#########
 
 * **événement** : sélection de l'événement d'instruction
 * **date d'événement** : date de l'événement (date du jour par défaut)
 * **lettre type** : choix de la lettre type affectée à cet événement d'instruction
 
 Dates
-=====
+#####
 
 Dates de suivi chronologique de l'événement d'instruction.
 
@@ -590,7 +609,7 @@ Dates de suivi chronologique de l'événement d'instruction.
 .. _instruction_complement:
 
 Compléments
-===========
+###########
 
 Les champs de complément permettent l'introduction d'un texte personnalisé dans
 l'édition.
@@ -622,13 +641,13 @@ avec leurs avis.
 .. _previsualisation_edition:
 
 Prévisualisation de l'édition
-=============================
+#############################
 
 Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition**
 est activé pour la collectivité du dossier d'instruction en contexte, alors le
 rendu du PDF sur le formulaire de modification des événements d'instruction qui
 ont une lettre type associée est affiché. Après avoir modifié un complément, on
-peut regénérer l'édition en cliquant sur *Actualiser*.
+peut regénérer l'édition en cliquant sur *Prévisualiser*.
 
 .. image:: instruction_previsualisation_edition.png
 
@@ -638,7 +657,7 @@ peut regénérer l'édition en cliquant sur *Actualiser*.
 .. _redaction_libre:
 
 Rédaction libre
-===============
+###############
 
 Si le :ref:`paramètre<parametrage_parametre>` **option_redaction_libre** est
 activé pour la collectivité du dossier d'instruction en contexte, alors apparait
