@@ -635,7 +635,7 @@ Si l'option **consultation** de l'événement est activée lors de son
 **automatique** disponible en bas du formulaire va ajouter les consultations
 avec leurs avis.
 
-.. note:: Si le mode :ref:`redaction_libre` est activé, les champs *Compléments* sont remplacés par un unique champs *Corps*
+.. note:: Si le mode :ref:`redaction_libre` est activé, les champs *Compléments* sont remplacés par les champs *Titre* et *Corps*
 
 
 .. _previsualisation_edition:
@@ -666,9 +666,9 @@ un nouveau bouton *Rédaction libre* du Portlet de l'instruction.
 .. image:: instruction_redaction_libre_bouton_portlet.png
 
 Lorsque la **Rédaction libre** est cliquée/activée, cela permet de modifier
-manuellement totalement la lettre type associée (PDF) en utilisant le champs
-*Corps* remplaçant alors les champs :ref:`instruction_complement` (décris ci-dessus
-).
+manuellement totalement la lettre type associée (PDF) en utilisant les champs
+*Titre* et *Corps* remplaçant alors les champs :ref:`instruction_complement`
+(décris ci-dessus).
 
 .. image:: instruction_redaction_libre_bouton_modifier_portlet.png
 
@@ -676,7 +676,7 @@ manuellement totalement la lettre type associée (PDF) en utilisant le champs
 
 Lors du passage en mode **Rédaction libre**, la lettre type actuelle (générée
 grâce au modèle de la :ref:`admin_lettre_type`, des :ref:`instruction_complement` et des
-champs de fusion), sera entièrement dupliquée dans le champs *Corps*.
+champs de fusion), sera entièrement dupliquée dans les champs *Titre* et *Corps*.
 Les champs de fusion continueront à être fonctionnels.
 
 Si l'on ne souhaite plus être en **Redaction libre** et revenir à un mode
