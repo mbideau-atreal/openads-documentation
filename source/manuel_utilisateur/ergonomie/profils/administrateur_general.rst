@@ -288,6 +288,8 @@ Action(s) disponible(s) par onglet :
     - Modifier le texte d'un service.
     - Supprimer un service.
 
+.. _admin_lettre_type:
+
 Lettre type
 ###########
 
