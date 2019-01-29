@@ -578,7 +578,8 @@ Pour ajouter un évènement d'instruction, il suffit de saisir:
 
 (\*) Affichés ou non selon le type d'évènement.
 
-.. note:: À partir de la version 4.10.0, il y a un masquage des champs inutiles à cette étape d'ajout (dates de suivi et compléments)
+Lors de la validation du formulaire d'ajout, si l'événement sélectionné possède une lettre type associée l'utilisateur est automatiquement redirigé vers le formulaire de modification.
+
 
 Modification
 ============
@@ -592,24 +593,13 @@ Modification
 * **date d'événement** : date de l'événement (date du jour par défaut)
 * **lettre type** : choix de la lettre type affectée à cet événement d'instruction
 
-Dates
-#####
-
-Dates de suivi chronologique de l'événement d'instruction.
-
-* **date de finalisation du courrier**
-* **date d'envoi pour signature**
-* **date d'envoi RAR**
-* **date d'envoi au contrôle légalité**
-* **signataire** (on peut en sélectionner un par défaut, cf. `Paramétrage --> Organisation --> Signataire Arrêté`)
-* **date de retour de signature**
-* **date de retour RAR**
-* **date de retour du contrôle de légalité**
 
 .. _instruction_complement:
 
-Compléments
-###########
+Rédaction par compléments
+#########################
+
+Type de rédaction d'une instruction par défaut.
 
 Les champs de complément permettent l'introduction d'un texte personnalisé dans
 l'édition.
@@ -638,22 +628,6 @@ avec leurs avis.
 .. note:: Si le mode :ref:`redaction_libre` est activé, les champs *Compléments* sont remplacés par les champs *Titre* et *Corps*
 
 
-.. _previsualisation_edition:
-
-Prévisualisation de l'édition
-#############################
-
-Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition**
-est activé pour la collectivité du dossier d'instruction en contexte, alors le
-rendu du PDF sur le formulaire de modification des événements d'instruction qui
-ont une lettre type associée est affiché. Après avoir modifié un complément, on
-peut regénérer l'édition en cliquant sur *Prévisualiser*.
-
-.. image:: instruction_previsualisation_edition.png
-
-.. note:: Si la fenêtre du navigateur a une **résolution horizontale inférieure à 1280 pixels**, alors **la prévisualisation ne s'affichera pas "à côté"** des champs de modification. Dans ce cas, pour l'afficher il faudra alors cliquer sur le bouton *Prévisualiser*, puis sur le bouton *Rédaction* pour revenir à la rédaction (écran précédent).
-
-
 .. _redaction_libre:
 
 Rédaction libre
@@ -661,7 +635,7 @@ Rédaction libre
 
 Si le :ref:`paramètre<parametrage_parametre>` **option_redaction_libre** est
 activé pour la collectivité du dossier d'instruction en contexte, alors apparait
-un nouveau bouton *Rédaction libre* du Portlet de l'instruction.
+la nouvelle action *Rédaction libre*.
 
 .. image:: instruction_redaction_libre_bouton_portlet.png
 
@@ -680,12 +654,27 @@ champs de fusion), sera entièrement dupliquée dans les champs *Titre* et *Corp
 Les champs de fusion continueront à être fonctionnels.
 
 Si l'on ne souhaite plus être en **Redaction libre** et revenir à un mode
-*"classique"*, il suffit de cliquer sur le bouton *Rédaction par compléments* du
-Portlet de l'instruction.
+*"classique"*, il suffit de cliquer sur l'action *Rédaction par compléments*.
 
 .. image:: instruction_redaction_libre_bouton_complements_portlet.png
 
 .. warning:: En revenant à une **Rédaction par compléments**, tout le contenu qui aura été écrit manuellement en mode **Rédaction libre** sera perdu.
+
+
+.. _previsualisation_edition:
+
+Prévisualisation de l'édition
+#############################
+
+Si le :ref:`paramètre<parametrage_parametre>` **option_previsualisation_edition**
+est activé pour la collectivité du dossier d'instruction en contexte, alors le
+rendu du PDF sur le formulaire de modification des événements d'instruction qui
+ont une lettre type associée est affiché. Après avoir modifié un complément, on
+peut regénérer l'édition en cliquant sur *Prévisualiser*.
+
+.. image:: instruction_previsualisation_edition.png
+
+.. note:: Si la fenêtre du navigateur a une **résolution horizontale inférieure à 1280 pixels**, alors **la prévisualisation ne s'affichera pas "à côté"** des champs de modification. Dans ce cas, pour l'afficher il faudra alors cliquer sur le bouton *Prévisualiser*, puis sur le bouton *Rédaction* pour revenir à la rédaction (écran précédent).
 
 
 Suppression
@@ -745,6 +734,15 @@ Les dates de suivi n'étant pas affichées dans le document PDF de l'instruction
 On arrive alors sur la page suivante où seules les dates de suivi sont modifiables.
 
 .. image:: maj_date_instruction.png
+
+* **date de finalisation du courrier**
+* **date d'envoi pour signature**
+* **date d'envoi RAR**
+* **date d'envoi au contrôle légalité**
+* **signataire** (on peut en sélectionner un par défaut, cf. `Paramétrage --> Organisation --> Signataire Arrêté`)
+* **date de retour de signature**
+* **date de retour RAR**
+* **date de retour du contrôle de légalité**
 
 .. note::
 
