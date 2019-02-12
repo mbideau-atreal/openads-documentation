@@ -514,7 +514,9 @@ Les informations à saisir sont :
 * **pour tous les champs Règle** : règle rattaché au champ du dossier
   d'instruction du même nom à l'exception des règles sur données techniques.
 * **pour les 5 champs Règle données techniques** : dans le premier champ, saisir la donnée technique à modifier (choix restreint au données techniques présentées :ref:`ici <valeur_donnees_techniques>` ; dans le second, la valeur à lui affecter. Ce dernier peut contenir une ou plusieurs valeurs, issue(s) de celles présentées dans l'aide à la saisie. Dans le cas d'une composition, utiliser l'opérateur `+` pour concaténer les différentes valeurs.
+* **la Règle type de dossier d'instruction** permet de changer le type de dossier d'intruction. La valeur de ce paramètre est un entier correspondant à l'ID du type que le dossier d'instruction doit avoir (ID à chercher dans Paramétrage dossiers > Type DI).
 
+.. warning:: Pour la **Règle type de dossier d'instruction** il faut impérativement que l'**ID du type de dossier existe et soit du même type de dossier Autorisation**, et que ce soit pour le dossier d'Instruction initial du dossier d'Autorisation
 
 Les champs disponibles pour la saisie des règles sont :
 
