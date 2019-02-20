@@ -27,7 +27,7 @@ om_parametre
 
  - **erp__dossier__nature__at** : correspond au code du type de DA détaillé qui représente une autorisation de travaux par exemple "AT" (utilisé par les échanges [109][112][110][108][101]).
  - **erp__dossier__nature__pc** : correspond au code du type de DA détaillé qui représente un permis de construire par exemple "PC" (utilisé par les échanges [104][106][107][102][103][105][111]).
- - **erp__dossier__type_di__pc** : correspond à une liste d’identifiants de types de dossiers d'instruction pour les PC autorisés à être interfacés avec le référentiel ERP, par exemple “12;16;18”.
+ - **erp__dossier__type_di__pc** : correspond à une liste d’identifiants de types de dossiers d'instruction pour les PC autorisés à être interfacés avec le référentiel ERP, par exemple “12;16;18” (utilisé par les échanges [102][103][104][105]).
  - **erp__demandes__depot_piece__at** : correspond à une liste d'identifiants de types de demandes qui représentent le dépôt de pièce sur une AT par un pétitionnaire au guichet par exemple "12;16;18" (utilisé par l'échange [112])
  - **erp__demandes__retrait__at** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de retrait du dossier AT par un pétitionnaire au guichet par exemple "12" (utilisé par l'échange [109])
  - **erp__demandes__ouverture__at** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de d'ouverture d'un ERP sur un dossier AT par un pétitionnaire au guichet par exemple "16;18" (utilisé par l'échange [110])
