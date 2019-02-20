@@ -141,7 +141,7 @@ L'objectif principal de cet échange est de permettre à l'instructeur ADS de ga
 
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
-• Le DI du dossier est autorisé à être un ERP (erp__dossier__type_di__pc)
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Le formulaire de modification du dossier est validé avec le marqueur « à qualifier » à « NON » ET le marqueur « ERP » à « OUI » (dossier::triggermodifier())
 
 
@@ -196,7 +196,7 @@ L'objectif principal de cet échange est de permettre à l'instructeur ADS de ga
 
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
-• Le DI du dossier est autorisé à être un ERP (erp__dossier__type_di__pc)
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Le formulaire de modification du dossier est validé avec le marqueur « à qualifier » à « NON » ET le marqueur « ERP » à « OUI » (dossier::triggermodifier())
 
 
@@ -251,7 +251,7 @@ L'objectif principal de cet échange est de permettre à l'instructeur ADS d'ém
 
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
-• Le DI du dossier est autorisé à être un ERP (erp__dossier__type_di__pc)
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Le formulaire d'ajout de consultation est validé avec un service correspondant à un des services ERP pour avis (paramètre erp__services__avis') (consultation::triggerajouter())
 
 
@@ -321,7 +321,7 @@ L'objectif principal de cet échange est de permettre d'informer les services ER
 • L'option ERP est activée
 • Le dossier est marqué comme « connecté au référentiel ERP »
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
-• Le DI du dossier est autorisé à être un ERP (erp__dossier__type_di__pc)
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Ajout d'un événement d'instruction sur le dossier dont l'identifiant correspond aux événements dont les services ERP doivent être informé (paramètre 'erp__evenements_decision__pc') (instruction::triggerajouterapres())
 
 
