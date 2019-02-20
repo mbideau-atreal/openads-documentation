@@ -27,6 +27,7 @@ om_parametre
 
  - **erp__dossier__nature__at** : correspond au code du type de DA détaillé qui représente une autorisation de travaux par exemple "AT" (utilisé par les échanges [109][112][110][108][101]).
  - **erp__dossier__nature__pc** : correspond au code du type de DA détaillé qui représente un permis de construire par exemple "PC" (utilisé par les échanges [104][106][107][102][103][105][111]).
+ - **erp__dossier__type_di__pc** : correspond à une liste d’identifiants de types de dossiers d'instruction pour les PC autorisés à être interfacés avec le référentiel ERP, par exemple “12;16;18” (utilisé par les échanges [102][103][104][105]).
  - **erp__demandes__depot_piece__at** : correspond à une liste d'identifiants de types de demandes qui représentent le dépôt de pièce sur une AT par un pétitionnaire au guichet par exemple "12;16;18" (utilisé par l'échange [112])
  - **erp__demandes__retrait__at** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de retrait du dossier AT par un pétitionnaire au guichet par exemple "12" (utilisé par l'échange [109])
  - **erp__demandes__ouverture__at** : correspond à une liste d'identifiants de types de demandes qui représentent la demande de d'ouverture d'un ERP sur un dossier AT par un pétitionnaire au guichet par exemple "16;18" (utilisé par l'échange [110])
@@ -140,6 +141,7 @@ L'objectif principal de cet échange est de permettre à l'instructeur ADS de ga
 
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Le formulaire de modification du dossier est validé avec le marqueur « à qualifier » à « NON » ET le marqueur « ERP » à « OUI » (dossier::triggermodifier())
 
 
@@ -194,6 +196,7 @@ L'objectif principal de cet échange est de permettre à l'instructeur ADS de ga
 
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Le formulaire de modification du dossier est validé avec le marqueur « à qualifier » à « NON » ET le marqueur « ERP » à « OUI » (dossier::triggermodifier())
 
 
@@ -248,6 +251,7 @@ L'objectif principal de cet échange est de permettre à l'instructeur ADS d'ém
 
 • L'option ERP est activée
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Le formulaire d'ajout de consultation est validé avec un service correspondant à un des services ERP pour avis (paramètre erp__services__avis') (consultation::triggerajouter())
 
 
@@ -317,6 +321,7 @@ L'objectif principal de cet échange est de permettre d'informer les services ER
 • L'option ERP est activée
 • Le dossier est marqué comme « connecté au référentiel ERP »
 • Le dossier est de type PC (paramètre 'erp__dossier_nature__pc')
+• Le type du dossier d'instruction peut être interfacé (erp__dossier__type_di__pc)
 • Ajout d'un événement d'instruction sur le dossier dont l'identifiant correspond aux événements dont les services ERP doivent être informé (paramètre 'erp__evenements_decision__pc') (instruction::triggerajouterapres())
 
 

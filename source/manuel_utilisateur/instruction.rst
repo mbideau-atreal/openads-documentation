@@ -1079,3 +1079,5 @@ Pour indiquer un dossier d'instruction comme concernant un **ERP**, il faut coch
 .. image:: instruction_qualification_erp.png
 
 Lors de la validation du formulaire, toutes les pièces numérisées et générées liées au dossier d'instruction auront leur métadonnée *concerneERP* modifiée. À condition que le connecteur du système de stockage soit configuré pour effectuer cette action.
+
+Attention, si l'option_referentiel_erp est active, le comportement de cette case ne sera plus le même. Elle sera non modifiable dans le cas où le dossier ne peut pas être interfacé avec le référentiel ERP.
