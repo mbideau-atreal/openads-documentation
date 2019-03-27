@@ -50,10 +50,12 @@ Contributeurs
 
 * `atReal <http://www.atreal.fr>`_
 * Thierry Benita
+* Michaël Bideau
 * Matthias Broquet
 * Jérémy Cerini
 * Nicolas Haye
 * Jean-Yves Madier
+* Grégory Malvolti
 * Nicolas Meucci
 * Florent Michon
 * Virginie Pihour
