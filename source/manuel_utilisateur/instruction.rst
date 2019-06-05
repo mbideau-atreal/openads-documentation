@@ -358,12 +358,32 @@ Modifier la date de dépôt
 
 Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date de dépôt.
 
-.. image:: instruction_action_modifier_date.png
+.. image:: instruction_action_modifier_date_depot.png
 
 * Disponible s'il n'y a qu'un événement d'instruction sur le dossier et s'il s'agit du récépissé de la demande (les événements de type **affichage** ne sont pas pris en compte).
 * La modification s'éffectue uniquement si l'année reste inchangée.
 * Si avant la modification, la date du dernier dépôt était celle du dépôt alors sa valeur est aussi modifiée.
 
+Modifier la date d'affichage
+============================
+
+Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date d'affichage.
+
+.. image:: instruction_action_modifier_date_affichage.png
+
+La modification manuelle de la date d'affichage est permise pour les profils suivants:  
+Administrateur Technique et Fonctionnel, Administrateur Général, Qualificateur, Guichet et Suivi, Instructeur Polyvalent, Instructeur Polyvalent Commune.
+
+.. note::
+    La date d'affichage entrée manuellement sera remplacée si une instruction d'affichage obligatoire est ajoutée par la suite.
+    Par exemple, lorsque l'impression des affichages règlementaires est déclenchée (via Guichet Unique > Registre).
+
+Attestation d'affichage
+=======================
+
+.. image:: instruction_action_attestation_affichage.png
+
+Cette action est un raccourcis qui permet de consulter le document PDF de la dernière édition finalisée d'affichage règlementaire.
 
 Régénérer le récépissé
 ======================
