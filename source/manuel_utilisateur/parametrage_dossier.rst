@@ -125,6 +125,8 @@ Les informations à saisir sont :
 * **suffixe** : en décochant l'option on désactive le suffixe dans la numérotation du dossier. À n'utiliser que pour les types de DI initiaux afin de ne pas afficher le *P0*.
 * **mouvement sitadel** : type de mouvement sitadel, seul les dossiers dont le 
   type de mouvement sitadel est défini seront exportés.
+* **les mises à jour du dossier d'autorisation** : liste des actions de mise à jour du dossier d'autorisation possibles, propose les mises à jour de la localisation, des lots, des demandeurs, de l'état, des dates initiales, de la date de validité, de la date d'ouverture du chantier, de la date d'achèvement des travaux et des données techniques.
+
 
 .. _parametrage_dossiers_contrainte:
 
@@ -225,8 +227,9 @@ Les informations à saisir sont :
 * **type de dossier d'autorisation détaillé** : le type de dossier d'autorisation
   à créer si il doit en être créé un.
 * **nature de la demande** : (voir :ref:`parametrage_dossiers_demande_nature`).
-* **états du dernier dossier d'instruction** : état à partir du quel il est possible
+* **états autorisés du dossier d'instruction ciblé** : état à partir du quel il est possible
   de créer la demande.
+* **types compatibles des dossiers d’instruction en cours** : types des dossiers d'instructions pouvant être instruit en parallèle.
 * **contraintes** : avec ou sans récupération des demandeurs du dossier
   d'autorisation.
 * **type de dossier d'instruction à créer** : le type de dossier d'instruction
@@ -514,7 +517,9 @@ Les informations à saisir sont :
 * **pour tous les champs Règle** : règle rattaché au champ du dossier
   d'instruction du même nom à l'exception des règles sur données techniques.
 * **pour les 5 champs Règle données techniques** : dans le premier champ, saisir la donnée technique à modifier (choix restreint au données techniques présentées :ref:`ici <valeur_donnees_techniques>` ; dans le second, la valeur à lui affecter. Ce dernier peut contenir une ou plusieurs valeurs, issue(s) de celles présentées dans l'aide à la saisie. Dans le cas d'une composition, utiliser l'opérateur `+` pour concaténer les différentes valeurs.
+* **la Règle type de dossier d'instruction** permet de changer le type de dossier d'intruction. La valeur de ce paramètre est un entier correspondant à l'ID du type que le dossier d'instruction doit avoir (ID à chercher dans Paramétrage dossiers > Type DI).
 
+.. warning:: Pour la **Règle type de dossier d'instruction** il faut impérativement que l'**ID du type de dossier existe et soit du même type de dossier Autorisation**, et que ce soit pour le dossier d'Instruction initial du dossier d'Autorisation
 
 Les champs disponibles pour la saisie des règles sont :
 

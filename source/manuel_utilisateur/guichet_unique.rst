@@ -51,6 +51,24 @@ La demande va se rattacher à un dossier d'autorisation en cours de traitement,
 les dossiers affichés sont donc acceptés ou en cours d'instruction.
 Après avoir sélectionné le dossier existant sur lequel on souhaite créer une nouvelle demande, on sélectionne le type de demande. 
 
+.. _guichet_unique_liste_type_demande:
+
+Liste des types de demande
+==========================
+
+Les types de demande proposés, en plus d'être filtrés sur le type de dossier d'autorisation détaillé (soit sélectionnés dans le cas d'une nouvelle demande, soit récupérés depuis le dossier d'instruction ciblé) sont récupérés de plusieurs façons défini dans le :ref:`paramétrage des types de dossier d'instruction<parametrage_dossiers_dossier_instruction_type>` et dans le :ref:`paramétrage des types de demande<parametrage_dossiers_demande_type>` :
+
+* qui ne créé pas de nouveau dossier d'instruction et dont l'état du dossier d'instruction ciblé fait partie des états autorisés,
+* qui créé de nouveau dossier d'instruction, dont l'état du dossier d'instruction ciblé fait partie des états autorisés et dont le dossier d'autorisation est accordé,
+* qui créé de nouveau dossier d'instruction, dont les types des dossiers d'instruction en cours sur le dossier d'autorisation ciblé accordé, sont identiques à la liste des types de dossier d'instruction compatibles,
+* qui créé de nouveau dossier d'instruction, dont les types des dossiers d'instruction en cours sur le dossier d'autorisation ciblé en cours d'instruction, sont identiques à la liste des types de dossier d'instruction compatibles et dont le dossier d'instruction initial n'est pas de compétence *commune*.
+
+.. note::
+
+    * L'identifiant de l'autorité compétente représentant *la commune* doit obligatoirement être **1**.
+    * L'identifiant de l'état de dossier d'autorisation représentant *l'accord* doit obligatoirement être **2**.
+    * L'identifiant de l'état de dossier d'autorisation représentant *l'instruction en cours* doit obligatoirement être **1**.
+
 
 Saisie commune (nouveau dossier ou dossier existant) de la nouvelle demande
 ===========================================================================

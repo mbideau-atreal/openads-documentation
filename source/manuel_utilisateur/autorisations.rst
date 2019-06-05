@@ -46,7 +46,7 @@ Visualisation des dossiers d'autorisation
 
 .. image:: ../manuel_utilisateur/autorisation_visualisation.png
 
-La visualisation contient deux blocs d'informations :
+La visualisation peut contenir plusieurs blocs d'informations :
 
 - "En cours de validité" : informations des dossiers d'instructions soumis à un arrété.
 
@@ -55,7 +55,7 @@ La visualisation contient deux blocs d'informations :
     * En rouge : la liste des décisions en cours de validité
     * En bleu : un lien vers toutes les données techniques en cours de validité
 
-- "En cours d'instruction" : données du dossier d'instruction en cours d'instruction.
+- "En cours d'instruction" : données des dossiers d'instruction en cours d'instruction. Ce bloc est répété autant de fois qu'il y a de dossier en parallèle.
 
     * En noir : les informations importantes en cours d'instruction
     * En vert : la liste des lots et leurs petitionnaire principal en cours d'instruction
