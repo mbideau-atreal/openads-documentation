@@ -376,7 +376,8 @@ Les informations à saisir sont :
 * **lettre type** : (voir :ref:`parametrage_dossiers_om_etat_lettretype`).
 * **consultation** : cette case à cocher est présente pour afficher la liste
   des consultations dans le complément sous la forme « Vu l'avis » avis rendu
-  « du service » nom du service consulté.
+  « du service » nom du service consulté. Note: Les consultations marquées
+  explicitement comme non-visibles ne sont pas affichées ici.
 * **phase** : liste à choix des :ref:`phases <parametrage_phase>` à afficher sur la lettre recommandée.
 * **Finaliser automatiquement** : cette case à cocher est présente pour activer la finalisation automatique de l'événement, donc la génération automatique de sa lettre type associée.
 * **autorité compétente** : liste des autorité possible
