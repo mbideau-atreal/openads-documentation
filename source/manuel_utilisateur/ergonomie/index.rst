@@ -676,3 +676,14 @@ Contentieux
     profils/direction_consultation.rst
     profils/direction_infraction.rst
     profils/direction_recours.rst
+
+
+Bloqueurs de publicités
+=======================
+
+Il est possible que vous voyiez le message suivant lors de l'utilisation de l'application *openADS*:
+
+.. image:: message-bloqueur-pub.png
+
+Dans ce cas nous vous invitons à désactiver temporairement votre extension bloqueuse de publicités ou bien d'ajouter l'application dans les contenus autorisés.
+
