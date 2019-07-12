@@ -24,32 +24,37 @@ soient correctement configurés et ceci pour la collectivité réalisant l'expor
 * **commune** : doit contenir le code insee de la commune référente pour l'export, c'est-à-dire du service expéditeur sur trois caractères (la plus grosse des communes en cas d'EPCI)
 * **departement** : doit contenir le code insee du département dans lequel se trouve le service instructeur, sur 3 caractères (exemples : 001 à 095, 02A, 02B, 971...974)
 
-=========
-Exécution
-=========
+==========================
+Fonctionnement de l'export
+==========================
 
-Afin de générer l'export SITADEL, vous devez choisir :
+Il suffit de saisir la période pour laquelle vous souhaitez exporter les mouvements des dossiers au format SITADEL.
+Les champs à renseigner sont :
 
-* une date de début ;
-* une date de fin ; 
+* la date de début de la période souhaitée ;
+* la date de fin de la période souhaitée ; 
 * un numéro d'ordre d'envoi.
 
-L'intervalle de date se base sur la date de dernière modification des dossiers. Cette date est mise à jour à chaque instruction et à chaque changement dans les données techniques.
+La période se base sur la date de dernière modification des dossiers. Cette date est mise à jour à chaque instruction et à chaque changement dans les données techniques sur les dossiers d'instruction.
 Le numéro d'ordre d'envoi est le numéro de version de votre export.
+
+Les dossiers déjà exportés pour SITADEL n'apparaîtront plus dans les prochains exports. Ils seront à nouveau affichés lorsqu’au moins une des données utilisées par SITADEL sera différente du dernier export.
 
 ========
 Résultat
 ========
 
-Deux fichiers sont générés : l'export SITADEL, à envoyer au pôle statistiques de 
-votre région, et un fichier contenant les incohérences détectées dans les données.
+Deux fichiers sont générés :
+
+* l'export SITADEL à envoyer au pôle statistiques de votre région ;
+* un fichier contenant les incohérences détectées dans les données.
 
 Ce second fichier n'a qu'un but informatif. Il indique quel dossier et quelle 
 information est incohérente.
 
 Charge reste à l'utilisateur d'agir, ou non, en fonction du contenu de ce fichier.
 
-Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichier :
+Voici la liste exhaustive des messages qui peuvent être contenus dans ce fichier :
 
 **La SHON existante avant travaux et la SHON démolie sont nulles alors cela devrait être une nouvelle construction.**
     → La nature du projet ou les surfaces saisies sont incorrectes
@@ -98,9 +103,17 @@ Voici une liste exhaustive des messages qui peuvent être contenus dans ce fichi
 
 **La date d'achevement de travaux doit etre supérieure à la date d'ouverture des travaux.**
     → La date d'ouverture de chantier doit être inférieure à la date d'achèvement des travaux
-    
-Les dossiers déjà exportés pour SITADEL n'apparaîtront plus dans les prochains exports.
-Ils seront à nouveau affichés lorsqu'au moins une des données utilisées par SITADEL sera différente du dernier export.
+
+======================
+Historique des exports
+======================
+
+Tous les exports SITADEL et les fichiers d'incohérence sont historisés dans le tableau disponible sur le formulaire d'export SITADEL.
+
+Par défaut les fichiers sont triés par date de fin de la période décroissante.
+
+Les fichiers sont également filtrés par la collectivité de l'utilisateur connecté.
+
 
 .. _versement_archives:
 
