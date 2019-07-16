@@ -112,7 +112,7 @@ Tous les exports SITADEL et les fichiers d'incohérence sont historisés dans le
 
 Par défaut les fichiers sont triés par date de fin de la période décroissante.
 
-Les fichiers sont également filtrés par la collectivité de l'utilisateur connecté.
+Les fichiers sont également filtrés par la collectivité de l'utilisateur connecté. En cas d'une configuration en multi-collectivités, les utilisateurs de niveau 2 accèdent à l'historique de toutes les collectivités.
 
 
 .. _versement_archives:
