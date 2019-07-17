@@ -623,7 +623,7 @@ affiché.
 Si l'option **consultation** de l'événement est activée lors de son
 :ref:`paramétrage<parametrage_dossiers_saisir_evenement>` alors l'action
 **automatique** disponible en bas du formulaire va ajouter les consultations
-avec leurs avis.
+avec leurs avis (hormis celles marquées explicitement comme non-visibles).
 
 .. note:: Si le mode :ref:`redaction_libre` est activé, les champs *Compléments* sont remplacés par les champs *Titre* et *Corps*
 
