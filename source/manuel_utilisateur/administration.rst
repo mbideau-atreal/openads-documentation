@@ -90,6 +90,7 @@ Utilisation des paramètres d'identification :
 * **id_evenement_bordereau_avis_maire_prefet** : paramètre définissant l'identifiant de l'événement à appliquer aux dossiers d'instruction faisant l'objet d'un bordereau d'envoi des avis du Maire au Préfet, doit être paramétré sur la collectivité de niveau 2 pour une configuration multi-communes.
 * **id_datd_filtre_reqmo_dossier_dia** : paramètre définissant l'identifiant du type détaillé de dossier d'autorisation des dossiers d'instruction à retourner dans la requête mémorisée de :ref:`l'exports statistique des DIA <reqmo_export_dia>`. Il est possible d'ajouter plusieurs valeur à condition qu'elles soient séparées par des virgules.
 * **id_avis_consultation_tacite** : paramètre définissant l'identifiant de l'avis de consultation pour le caractère tacite. Notamment utilisé pour la récupération et l'identification des pièces recommandées lors de la :ref:`constitution du dossier final <instruction_document_numerise_constituer_dossier_final>`.
+* **id_affichage_obligatoire** : paramètre définissant l'identifiant de l'événement d'instruction d'attestation d'affichage suite au dépôt. Cet événement est appliqué automatiquement sur tous les dossiers en cours lors de l'impression du registre d'affichage réglementaire et c'est son édition qui est retourné lors de l'impression d'attestation réglementaire. Il est également utilisé par l'action permettant d'afficher l'attestation d'affichage depuis la fiche d'un dossier d'instruction.
 
 .. _parametrage_parametre_mails_services_consultes:
 

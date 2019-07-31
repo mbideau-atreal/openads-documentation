@@ -85,6 +85,8 @@ En plus des actions identiques :
     - Télécharger le récépissé de la demande
     - Modifier l'affectation de l'instructeur
     - Supprimer le dossier d'instruction (sous plusieurs conditions)
+    - Modifier manuellement de la date d'affichage
+    - Télécharger l'attestation d'affichage obligatoire
 
   - *Message(s)* :
 

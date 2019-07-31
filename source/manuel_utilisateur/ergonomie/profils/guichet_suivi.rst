@@ -62,6 +62,8 @@ En plus des actions identiques :
   - *DI* :
 
     - Supprimer le dossier d'instruction (sous plusieurs conditions)
+    - Modifier manuellement de la date d'affichage
+    - Télécharger l'attestation d'affichage obligatoire
 
 
 (Consultation) Tous les retours

@@ -370,12 +370,9 @@ Dans le contexte de la modification d'un dossier d'instruction on peut modifier 
 Modifier la date d'affichage
 ============================
 
-Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date d'affichage.
+Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date d'affichage à condition d'avoir la permission.
 
-.. image:: instruction_action_modifier_date_affichage.png
-
-La modification manuelle de la date d'affichage est permise pour les profils suivants:  
-Administrateur Technique et Fonctionnel, Administrateur Général, Qualificateur, Guichet et Suivi, Instructeur Polyvalent, Instructeur Polyvalent Commune.
+.. image:: instruction_action_modifier_date_affichage
 
 .. note::
     La date d'affichage entrée manuellement sera remplacée si une instruction d'affichage obligatoire est ajoutée par la suite.
