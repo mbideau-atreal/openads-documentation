@@ -375,8 +375,7 @@ Dans le contexte de la modification d'un dossier d'instruction on peut modifier 
 .. image:: instruction_action_modifier_date_affichage
 
 .. note::
-    La date d'affichage entrée manuellement sera remplacée si une instruction d'affichage obligatoire est ajoutée par la suite.
-    Par exemple, lorsque l'impression des affichages règlementaires est déclenchée (via Guichet Unique > Registre).
+    La date d'affichage, une fois renseignée, n'est plus modifiée par le traitement des événements d'instruction possédant la règle pour changer cette date.
 
 
 Attestation d'affichage
