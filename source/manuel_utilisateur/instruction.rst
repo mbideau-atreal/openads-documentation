@@ -372,7 +372,7 @@ Modifier la date d'affichage
 
 Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date d'affichage à condition d'avoir la permission.
 
-.. image:: instruction_action_modifier_date_affichage
+.. image:: instruction_action_modifier_date_affichage.png
 
 .. note::
     La date d'affichage, une fois renseignée, n'est plus modifiée par le traitement des événements d'instruction possédant la règle pour changer cette date.
