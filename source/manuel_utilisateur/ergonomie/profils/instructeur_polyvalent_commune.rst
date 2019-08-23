@@ -1,3 +1,5 @@
+.. _profil_instructeur_polyvalent_commune:
+
 ##############################
 INSTRUCTEUR POLYVALENT COMMUNE
 ##############################
@@ -148,6 +150,7 @@ peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas af
     - Visualiser l'édition de l'événement d'instruction
     - Finaliser l'édition de l'événement d'instruction ajouté par un instructeur de la commune
     - Reprendre la rédaction de l'édition de l'événement d'instruction ajouté par un instructeur de la commune
+    - Réaliser le suivi des dates de l'événement d'instruction même si le dossiers clôturé
 
   - *Consultation(s)* :
 

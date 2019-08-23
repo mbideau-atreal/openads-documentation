@@ -1,3 +1,5 @@
+.. _profil_instructeur_polyvalent:
+
 ######################
 INSTRUCTEUR POLYVALENT
 ######################
@@ -109,6 +111,7 @@ En plus des actions identiques :
   - *Instruction* :
 
     - Notifier la commune
+    - Réaliser le suivi des dates de l'événement d'instruction même si le dossiers clôturé
 
 Rubrique *Guichet Unique*
 -------------------------

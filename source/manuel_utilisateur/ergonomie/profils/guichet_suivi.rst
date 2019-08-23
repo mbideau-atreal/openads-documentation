@@ -65,6 +65,9 @@ En plus des actions identiques :
     - Modifier manuellement de la date d'affichage
     - Télécharger l'attestation d'affichage obligatoire
 
+  - *Instruction* :
+
+    - Réaliser le suivi des dates de l'événement d'instruction même si le dossiers clôturé
 
 (Consultation) Tous les retours
 ###############################

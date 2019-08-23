@@ -767,9 +767,10 @@ On arrive alors sur la page suivante où seules les dates de suivi sont modifiab
 
 .. note::
 
-  Pour avoir accès à cette action il faut que le dossier ne soit pas clôturé et :
+  Pour avoir accès à cette action :
    - si on est instructeur, soit être celui du dossier ou tout au moins de sa division, soit être un instructeur polyvalent de la commune du dossier dont l'instruction a été déléguée à la communauté ;
-   - sinon être soit de la communauté (par exemple un administrateur), soit de la commune du dossier (par exemple le profil *GUICHET SUIVI*).
+   - sinon être soit de la communauté (par exemple un administrateur), soit de la commune du dossier (par exemple le profil *GUICHET SUIVI*) ;
+   - les instructeurs ont besoin de la permission spécifique *instruction_modification_dates_cloture* pour continuer le suivi des dates sur un dossier clôturé. Cette permission est octroyée par défaut aux profils :ref:`INSTRUCTEUR POLYVALENT<profil_instructeur_polyvalent>` et :ref:`INSTRUCTEUR POLYVALENT COMMUNE<profil_instructeur_polyvalent_commune>`.
 
 Finalisation des documents du rapport d'instruction
 ===================================================
