@@ -53,7 +53,7 @@ La visualisation peut contenir plusieurs blocs d'informations :
     * En noir : les informations importantes en cours de validité
     * En vert : la liste des lots et leurs petitionnaire principal en cours de validité
     * En rouge : la liste des décisions en cours de validité
-    * En bleu : un lien vers toutes les données techniques en cours de validité
+    * En bleu : un lien vers toutes les données techniques (CERFA) en cours de validité
 
 - "En cours d'instruction" : données des dossiers d'instruction en cours d'instruction. Ce bloc est répété autant de fois qu'il y a de dossier en parallèle.
 

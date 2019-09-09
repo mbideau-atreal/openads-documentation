@@ -35,7 +35,7 @@ Les champs à renseigner sont :
 * la date de fin de la période souhaitée ; 
 * un numéro d'ordre d'envoi.
 
-La période se base sur la date de dernière modification des dossiers. Cette date est mise à jour à chaque instruction et à chaque changement dans les données techniques sur les dossiers d'instruction.
+La période se base sur la date de dernière modification des dossiers. Cette date est mise à jour à chaque instruction et à chaque changement dans les données techniques (CERFA) sur les dossiers d'instruction.
 Le numéro d'ordre d'envoi est le numéro de version de votre export.
 
 Les dossiers déjà exportés pour SITADEL n'apparaîtront plus dans les prochains exports. Ils seront à nouveau affichés lorsqu’au moins une des données utilisées par SITADEL sera différente du dernier export.

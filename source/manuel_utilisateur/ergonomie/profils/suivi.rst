@@ -58,8 +58,8 @@ Action(s) disponible(s) par onglet :
 
   - *DI* :
 
-    - Accéder a la fiche de visualisation des données techniques
-    - Modifier les données techniques
+    - Accéder a la fiche de visualisation des données techniques (CERFA)
+    - Modifier les données techniques (CERFA)
     - Accéder au dossier d'instruction dans le SIG
     - Afficher l'édition de récapitulatif du dossier d'instruction
 

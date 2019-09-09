@@ -115,8 +115,8 @@ peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas af
   - *DI* :
 
     - Modifier le dossier d'instruction
-    - Accéder a la fiche de visualisation des données techniques
-    - Modifier les données techniques
+    - Accéder a la fiche de visualisation des données techniques (CERFA)
+    - Modifier les données techniques (CERFA)
     - Accéder à l'édition du rapport d'instruction
     - Modifier le rapport d'instruction
     - Visualiser le rapport d'instruction

@@ -125,7 +125,7 @@ Les informations à saisir sont :
 * **suffixe** : en décochant l'option on désactive le suffixe dans la numérotation du dossier. À n'utiliser que pour les types de DI initiaux afin de ne pas afficher le *P0*.
 * **mouvement sitadel** : type de mouvement sitadel, seul les dossiers dont le 
   type de mouvement sitadel est défini seront exportés.
-* **les mises à jour du dossier d'autorisation** : liste des actions de mise à jour du dossier d'autorisation possibles, propose les mises à jour de la localisation, des lots, des demandeurs, de l'état, des dates initiales, de la date de validité, de la date d'ouverture du chantier, de la date d'achèvement des travaux et des données techniques.
+* **les mises à jour du dossier d'autorisation** : liste des actions de mise à jour du dossier d'autorisation possibles, propose les mises à jour de la localisation, des lots, des demandeurs, de l'état, des dates initiales, de la date de validité, de la date d'ouverture du chantier, de la date d'achèvement des travaux et des données techniques (CERFA).
 
 
 .. _parametrage_dossiers_contrainte:
@@ -485,7 +485,7 @@ Le principe
 Une action permet de recalculer des informations du dossier d'instruction. Elle
 est composée d'une série de règles de calculs. Chaque règle de calcul vise à
 modifier la valeur du champ lié dans le dossier d'instruction.
-Une action peut également mettre à jour la valeur de certaines données techniques.
+Une action peut également mettre à jour la valeur de certaines données techniques (CERFA).
 
 Elle accepte en paramètre de calcul :
 
@@ -496,7 +496,7 @@ Elle accepte en paramètre de calcul :
 * des valeurs fixées dans le paramétrage de l'action,
 * des valeurs fixées dans le paramétrage de l'événement déclenchant l'action,
 * des formules de calcul,
-* des valeurs de certaines données techniques.
+* des valeurs de certaines données techniques (CERFA).
 
 La valeur "null" vide la valeur du champ dans le Dossier d'Instruction.
 
@@ -516,8 +516,8 @@ Les informations à saisir sont :
 * **libellé** : texte à afficher dans l'interface lors de la sélection
   d'une action.
 * **pour tous les champs Règle** : règle rattaché au champ du dossier
-  d'instruction du même nom à l'exception des règles sur données techniques.
-* **pour les 5 champs Règle données techniques** : dans le premier champ, saisir la donnée technique à modifier (choix restreint au données techniques présentées :ref:`ici <valeur_donnees_techniques>` ; dans le second, la valeur à lui affecter. Ce dernier peut contenir une ou plusieurs valeurs, issue(s) de celles présentées dans l'aide à la saisie. Dans le cas d'une composition, utiliser l'opérateur `+` pour concaténer les différentes valeurs.
+  d'instruction du même nom à l'exception des règles sur données techniques (CERFA).
+* **pour les 5 champs Règle données techniques (CERFA)** : dans le premier champ, saisir la donnée technique à modifier (choix restreint au données techniques (CERFA) présentées :ref:`ici <valeur_donnees_techniques>` ; dans le second, la valeur à lui affecter. Ce dernier peut contenir une ou plusieurs valeurs, issue(s) de celles présentées dans l'aide à la saisie. Dans le cas d'une composition, utiliser l'opérateur `+` pour concaténer les différentes valeurs.
 * **la Règle type de dossier d'instruction** permet de changer le type de dossier d'intruction. La valeur de ce paramètre est un entier correspondant à l'ID du type que le dossier d'instruction doit avoir (ID à chercher dans Paramétrage dossiers > Type DI).
 
 .. warning:: Pour la **Règle type de dossier d'instruction** il faut impérativement que l'**ID du type de dossier existe et soit du même type de dossier Autorisation**, et que ce soit pour le dossier d'Instruction initial du dossier d'Autorisation
@@ -548,7 +548,7 @@ Les champs disponibles pour la saisie des règles sont :
 
 .. _valeur_donnees_techniques:
 
-**Valeurs des données techniques**
+**Valeurs des données techniques (CERFA)**
 
 [ctx_nature_travaux_infra_om_html] [ctx_article_non_resp_om_html]
 

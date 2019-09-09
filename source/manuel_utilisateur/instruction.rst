@@ -106,7 +106,7 @@ La RAP se fait sur la globalité de l'autorisation et propose seulement deux mon
 Calcul
 ######
 
-Le calcul de base et des abattements se fait automatiquement en fonction les valeurs saisies dans les données techniques du dossier d'instruction. 
+Le calcul de base et des abattements se fait automatiquement en fonction les valeurs saisies dans les données techniques (CERFA) du dossier d'instruction. 
 En renvanche, le calcul des montants des exonérations ne peut pas être automatisé : les montants doivent être saisis manuellement.
 
 Résultats
@@ -123,7 +123,7 @@ La simulation des taxes est possible seulement si les points suivants sont respe
 
 * le :ref:`paramétrage des taxes<parametrage_taxe_amenagement>` pour la collectivité du dossier d'instruction doit être complété ;
 * le secteur communal du dossier d'instruction doit être sélectionné ;
-* le type d'autorisation du dossier d'instruction doit comporter les données techniques nécessaires au calcul des taxes (pour la :ref:`TA<instruction_simulation_taxes_ta>` et pour la :ref:`RAP<instruction_simulation_taxes_rap>`) ;
+* le type d'autorisation du dossier d'instruction doit comporter les données techniques (CERFA) nécessaires au calcul des taxes (pour la :ref:`TA<instruction_simulation_taxes_ta>` et pour la :ref:`RAP<instruction_simulation_taxes_rap>`) ;
 * l'utilisateur doit avoir la permission de voir ces informations ;
 * l'option :ref:`option_simulation_taxes<parametrage_parametre>` doit être activée sur la collectivité du dossier d'instruction ;
 
@@ -148,10 +148,10 @@ Déclencheurs et mises à jour
 
 Les montants de la simulation de taxe sont calculés automatiquement :
 
-* à la validation des données techniques ;
+* à la validation des données techniques (CERFA) ;
 * lorsque le secteur communal du dossier d'instruction est modifié.
 
-Dans le cas où le calcul ne peut pas se faire, par manque d'information dans les données techniques par exemple, les valeurs des montants seront vides.
+Dans le cas où le calcul ne peut pas se faire, par manque d'information dans les données techniques (CERFA) par exemple, les valeurs des montants seront vides.
 Dans le cas où l'option est activée a posteriori, l'existant n'est pas recalculé automatiquement. Une mise à jour par l'un des deux déclencheurs mentionnés précédement devra être effectuée sur les dossiers souhaités.
 
 
@@ -160,12 +160,12 @@ Dans le cas où l'option est activée a posteriori, l'existant n'est pas recalcu
 La taxe d'aménagement (TA)
 ==========================
 
-Le simulateur effectue le calcul de base ainsi que les abattements possibles automatiquement. Les exonérations ne sont pas calculées par l'application, il revient à l'utilisateur d'en saisir le montant dans les données techniques.
+Le simulateur effectue le calcul de base ainsi que les abattements possibles automatiquement. Les exonérations ne sont pas calculées par l'application, il revient à l'utilisateur d'en saisir le montant dans les données techniques (CERFA).
 
 Source de données pour le calcul de base
 ########################################
 
-La liste ci-dessous présente les données techniques utilisées pour le calcul de base de la TA :
+La liste ci-dessous présente les données techniques (CERFA) utilisées pour le calcul de base de la TA :
 
 * **tax_surf_tot_cstr** → Surface taxable totale créée de la ou des construction(s), hormis les surfaces de stationnement closes et couvertes (en m²) ;
 * **tax_empl_ten_carav_mobil_nb_cr** → Nombre d’emplacements de tentes, de caravanes et de résidences mobiles de loisirs ;
@@ -189,7 +189,7 @@ Constructions pour lesquelles un abattement de 50% s'applique sur la valeur forf
 
     .. important:: Les abattements 1 et 2 ne sont pas cumulables d'après l'article L331-12 du code de l'urbanisme (depuis le 1 janvier 2011).
 
-La liste ci-dessous présente les données techniques utilisées pour le calcul des abattements de la TA (pour tous les champs issus d'un tableau, la valeur est récupérée de la colonne *Surfaces créées hormis les surfaces de stationnement closes et couvertes*) :
+La liste ci-dessous présente les données techniques (CERFA) utilisées pour le calcul des abattements de la TA (pour tous les champs issus d'un tableau, la valeur est récupérée de la colonne *Surfaces créées hormis les surfaces de stationnement closes et couvertes*) :
 
 * **tax_su_princ_surf4** → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'un prêt a taux zéro plus (PTZ+)" ;
 * **tax_su_princ_surf3** → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'autres prêts aides (PLUS, LES, PSLA, PLS, LLS)" ;
@@ -206,18 +206,18 @@ La liste ci-dessous présente les données techniques utilisées pour le calcul 
 Exonérations
 ############
 
-La liste ci-dessous présente les données techniques utilisées pour le calcul de l'exonération de la TA :
+La liste ci-dessous présente les données techniques (CERFA) utilisées pour le calcul de l'exonération de la TA :
 
 * **mtn_exo_ta_part_commu** → Montant de l'exonération de la part communale ;
 * **mtn_exo_ta_part_depart** → Montant de l'exonération de la part départementale ;
 * **mtn_exo_ta_part_reg** → Montant de l'exonération de la part régionale.
 
-Les exonérations de plein droit et facultatives peuvent être sélectionnées depuis les données techniques, mais le sont seulement à caractère informatif.
+Les exonérations de plein droit et facultatives peuvent être sélectionnées depuis les données techniques (CERFA), mais le sont seulement à caractère informatif.
 
 Identification visuelle sur les formulaires
 ###########################################
 
-Ces données sont accessibles depuis la zone de champ *Déclaration des éléments nécessaires au calcul des impositions* des données techniques. Les champs identifiés en rouge correspondent aux données présentées ci-dessus.
+Ces données sont accessibles depuis la zone de champ *Déclaration des éléments nécessaires au calcul des impositions* des données techniques (CERFA). Les champs identifiés en rouge correspondent aux données présentées ci-dessus.
 
 .. image:: instruction_simulation_taxes_dt_ta.png
 
@@ -263,7 +263,7 @@ La même méthode de calcul que celle de la TA est utilisée pour calculer la RA
 Source de données pour le calcul de base
 ########################################
 
-La liste ci-dessous présente les données techniques utilisées pour le calcul de base de la RAP :
+La liste ci-dessous présente les données techniques (CERFA) utilisées pour le calcul de base de la RAP :
 
 * **tax_surf_loc_arch** → Profondeur du(des) terrassement(s) au titre des locaux (en mètre) ;
 * **tax_surf_tot_cstr** → Surface taxable totale créée de la ou des construction(s), hormis les surfaces de stationnement closes et couvertes (en m²) ;
@@ -287,7 +287,7 @@ Constructions pour lesquelles un abattement à 50% s'applique sur la valeur forf
 
     .. important:: Les abattements 1 et 2 ne sont pas cumulables.
 
-La liste ci-dessous présente les données techniques utilisées pour le calcul des abattements de la RAP (pour tous les champs issus d'un tableau la valeur est récupérée de la colonne *Surfaces créées hormis les surfaces de stationnement closes et couvertes*) :
+La liste ci-dessous présente les données techniques (CERFA) utilisées pour le calcul des abattements de la RAP (pour tous les champs issus d'un tableau la valeur est récupérée de la colonne *Surfaces créées hormis les surfaces de stationnement closes et couvertes*) :
 
 * **tax_su_princ_surf4** → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'un prêt a taux zéro plus (PTZ+)" ;
 * **tax_su_princ_surf3** → Tableau "Locaux à usage d’habitation principale et leurs annexes" et ligne "Bénéficiant d'autres prêts aides (PLUS, LES, PSLA, PLS, LLS)" ;
@@ -305,16 +305,16 @@ La liste ci-dessous présente les données techniques utilisées pour le calcul 
 Exonérations
 ############
 
-La liste ci-dessous présente les données techniques utilisées pour le calcul de l'exonération de la RAP :
+La liste ci-dessous présente les données techniques (CERFA) utilisées pour le calcul de l'exonération de la RAP :
 
 * **mtn_exo_rap** → Montant de l'exonération.
 
-Les exonérations peuvent être sélectionnées depuis les données techniques mais seulement à caractère informatif.
+Les exonérations peuvent être sélectionnées depuis les données techniques (CERFA) mais seulement à caractère informatif.
 
 Identification visuelle sur les formulaires
 ###########################################
 
-Ces données sont accessibles depuis la zone de champ *Déclaration des éléments nécessaires au calcul des impositions* des données techniques. Les champs identifiés en rouge correspondent aux données présentées ci-dessus.
+Ces données sont accessibles depuis la zone de champ *Déclaration des éléments nécessaires au calcul des impositions* des données techniques (CERFA). Les champs identifiés en rouge correspondent aux données présentées ci-dessus.
 
 .. image:: instruction_simulation_taxes_dt_rap.png
 
@@ -899,7 +899,7 @@ L'instructeur du dossier peut :
 - ajouter des lots
 - modifier des lots
 - supprimer des lots
-- éditer les données techniques des lots
+- éditer les données techniques (CERFA) des lots
 - tranférer le ou les pétitionnaire à un ou plusieurs lots
 
 .. _instruction_dossier_message:

@@ -65,8 +65,8 @@ Action(s) disponible(s) par onglet :
   - *DI* :
 
     - Modifier le dossier d'instruction
-    - Accéder a la fiche de visualisation des données techniques
-    - Modifier les données techniques
+    - Accéder a la fiche de visualisation des données techniques (CERFA)
+    - Modifier les données techniques (CERFA)
     - Accéder à l'édition du rapport d'instruction
     - Modifier le rapport d'instruction
     - Visualiser le rapport d'instruction
@@ -127,7 +127,7 @@ Action(s) disponible(s) par onglet :
     - Accéder à la fiche de visualisation d’un lot.
     - Modifier un lot.
     - Supprimer un lot.
-    - Éditer les données techniques du lot.
+    - Éditer les données techniques (CERFA) du lot.
     - Transférer ce lot aux nouveaux demandeurs
 
   - Bloc-note :

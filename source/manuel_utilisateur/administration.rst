@@ -585,7 +585,7 @@ Exemple d'erreurs typiques :
 
 Après correction ce ficher de rejet peut être ré-importé.
 
-Des dossiers importés peuvent être mis à jour hors d'openADS, lors du prochain import les données du dossiers et des données techniques seront mises à jour. Attention, les demandeurs ne sont pas mis à jour.
+Des dossiers importés peuvent être mis à jour hors d'openADS, lors du prochain import les données du dossiers et des données techniques (CERFA) seront mises à jour. Attention, les demandeurs ne sont pas mis à jour.
 
 Description des colonnes du CSV :
 

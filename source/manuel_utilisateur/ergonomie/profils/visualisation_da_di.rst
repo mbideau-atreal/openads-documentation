@@ -42,7 +42,7 @@ Dossiers d'autorisation
 
     - Visualiser les lots
     - Visualiser les décisions prises sur les dossiers d'instruction
-    - Visualiser les données techniques en cours de validité
+    - Visualiser les données techniques (CERFA) en cours de validité
 
   - *Pièce(s)* :
 
@@ -76,7 +76,7 @@ Action(s) disponible(s) par onglet :
 
   - *DI* :
 
-    - Accéder a la fiche de visualisation des données techniques
+    - Accéder a la fiche de visualisation des données techniques (CERFA)
     - Accéder au dossier d'instruction dans le SIG
     - Afficher l'édition de récapitulatif du dossier d'instruction
 

@@ -79,7 +79,7 @@ Rubrique *Autorisation*
   * Accéder à la fiche de visualisation du dossier d'instruction
   * Visualiser les lots
   * Visualiser les décisions prises sur les dossiers d’instruction
-  * Visualiser les données techniques en cours de validité
+  * Visualiser les données techniques (CERFA) en cours de validité
 
 .. _profil_guichet_unique_rubrique_guichet_unique:
 

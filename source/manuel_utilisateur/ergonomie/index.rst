@@ -599,7 +599,7 @@ Il présente les informations suivantes:
 - message : cliquer sur l'indicateur mène à l'onglet des messages,
 - dépôt électronique: cette colonne n'apparait que si filtre_depot est paramétré à "aucun"
 
-Et les données techniques suivantes:
+Et les données techniques (CERFA) suivantes:
 - nombre total de logements
 - surface de plancher construite totale
 - destination.
