@@ -134,7 +134,7 @@ Rubrique *Suivi*
 
 .. _profil_suivi_rubrique_suivi_section_envoi_lettre_rar:
 
-Envoi lettre RAR
+Envoi lettre AR
 ################
 
 - Télécharger au format PDF l'édition des pré-imprimés RAR.

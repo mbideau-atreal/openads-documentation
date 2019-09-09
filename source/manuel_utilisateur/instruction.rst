@@ -706,7 +706,7 @@ ces critères :
 
  - le dossier d'instruction rattaché n'est pas clôturé
  - l'événement d'instruction n'est pas finalisé
- - les dates suivantes ne sont pas renseignées : envoi pour signature, retour de signature, envoi RAR, re­tour RAR, envoi au contrôle légalité, retour du contrôle légalité
+ - les dates suivantes ne sont pas renseignées : envoi pour signature, retour de signature, envoi AR, notification, envoi au contrôle légalité, retour du contrôle légalité
  - l'événement lié n’est pas de type « retour »
 
 
@@ -758,11 +758,11 @@ On arrive alors sur la page suivante où seules les dates de suivi sont modifiab
 
 * **date de finalisation du courrier**
 * **date d'envoi pour signature**
-* **date d'envoi RAR**
+* **date d'envoi AR**
 * **date d'envoi au contrôle légalité**
 * **signataire** (on peut en sélectionner un par défaut, cf. `Paramétrage --> Organisation --> Signataire Arrêté`)
 * **date de retour de signature**
-* **date de retour RAR**
+* **date de notification**
 * **date de retour du contrôle de légalité**
 
 .. note::

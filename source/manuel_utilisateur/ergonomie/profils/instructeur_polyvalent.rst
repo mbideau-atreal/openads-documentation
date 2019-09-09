@@ -129,7 +129,7 @@ Rubrique *Suivi*
 - Mettre à jour les dates de suivi d'événements d'instruction.
 - Visualiser la synthèse des date de suivi d'événements d'instruction.
 
-Envoi lettre RAR
+Envoi lettre AR
 ################
 
 - Télécharger au format PDF l'édition des pré-imprimés RAR.

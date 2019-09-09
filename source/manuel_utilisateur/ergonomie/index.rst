@@ -245,8 +245,8 @@ n'est pas de type retour et ne dispose d'aucune date renseignée parmi les suiva
 
 * date d'envoi pour signature ;
 * date de retour de signature ;
-* date d'envoi RAR ;
-* date de retour RAR ;
+* date d'envoi AR ;
+* date de notification ;
 * date d'envoi au contrôle légalité ;
 * date de retour du contrôle de légalité.
 
@@ -260,7 +260,7 @@ Widget "Dossiers événement incomplet ou majoration sans RAR"
 
 Orienté Instruction.
 
-L'objet de ce widget est de présenter un listing de dix dossiers d'instruction maximum sur lesquels ont été appliqué un événement de majoration ou d'incomplétude avec une date d'envoi de lettre RAR renseignée pour cet événement, et dont la date de retour RAR de l'événement n'a pas été complétée. Les dossiers sont triés du plus récent au plus ancien.
+L'objet de ce widget est de présenter un listing de dix dossiers d'instruction maximum sur lesquels ont été appliqué un événement de majoration ou d'incomplétude avec une date d'envoi de lettre RAR renseignée pour cet événement, et dont la date de notification de l'événement n'a pas été complétée. Les dossiers sont triés du plus récent au plus ancien.
 
 Trois filtres sont disponibles sur ce widget (le filtre est :ref:`paramétrable <administration_widget_dossiers_evenement_incomplet_majoration>` par l'administrateur) :
 

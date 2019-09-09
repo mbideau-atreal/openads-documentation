@@ -80,18 +80,18 @@ données (pour plus d'informations sur le paramétrage d'une action voir
 
 .. _suivi_envoi_lettre_rar:
 
-================
-Imprimer les RAR
-================
+===============
+Imprimer les AR
+===============
 
-(:menuselection:`Suivi --> Suivi Des Pièces --> Envoi Lettre RAR`)
+(:menuselection:`Suivi --> Suivi Des Pièces --> Envoi Lettre AR`)
 
-Cet écran permet un traitement en masse d'édition des pré-imprimés RAR pour les
+Cet écran permet un traitement en masse d'édition des pré-imprimés AR pour les
 courriers générés dans le cadre de l'instruction. Il suffit de saisir une date
 d'envoi, par défaut la date du jour, et de bipper à la douchette les courriers
 concernés (ou de saisir manuellement l'identifiant du courrier). Une fois que
 tous les courriers sont bippés, un bouton permet de générer le fichier PDF qui
-est adapté pour être imprimé sur les pré-imprimés RAR de La Poste. Les
+est adapté pour être imprimé sur les pré-imprimés AR de La Poste. Les
 destinataires varient en fonction du type de dossier, si c'est un dossier
 **ADS** ou **DPC** alors c'est le **délégataire** si renseigné sinon
 **pétitionnaire principal**, si c'est un dossier **recours** alors c'est le
@@ -99,7 +99,7 @@ destinataires varient en fonction du type de dossier, si c'est un dossier
 alors le destinataire sera le **plaignant principal**.
 
 
-Un seul fichier contient tous les RAR dans l'ordre de bip.
+Un seul fichier contient tous les AR dans l'ordre de bip.
 
 Exemple avec une étiquette de la poste :
 
@@ -111,7 +111,7 @@ Exemple de l'affichage de la phase et de la division avec une étiquette de la p
 
 .. image:: suivi_envoi_lettre_rar_pdf_phase.png
 
-Lors de la génération du fichier des RAR, la date d'envoi RAR est mise à jour
+Lors de la génération du fichier des AR, la date d'envoi AR est mise à jour
 sur les événements ayant servi à générer les courriers, avec la date saisie par
 l'utilisateur.
 
@@ -132,14 +132,14 @@ Une fois le formulaire validé, quatre cas de figures sont possibles :
   
   .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_inexistant.png
 
-* soit l'événement d'instruction existe et possède déjà une date d'envoi RAR qui
+* soit l'événement d'instruction existe et possède déjà une date d'envoi AR qui
   est différente de la date passée en paramètre :
   
   .. image:: suivi_envoi_lettre_rar_message_evenement_instruction_deja.png
 
-* soit l'événement d'instruction existe et n'a pas de date d'envoi RAR, on
+* soit l'événement d'instruction existe et n'a pas de date d'envoi AR, on
   obtient alors un lien vers le fichier pdf permettant d'imprimer les
-  pré-imprimés RAR, ainsi qu'une liste cliquable de dossiers impactés,
+  pré-imprimés AR, ainsi qu'une liste cliquable de dossiers impactés,
   si l'utilisateur n'a le droit d'accèder à des dossiers alors le message
   **Certain dossiers ont étés omis de la liste ci-dessous car vous n'y avez
   pas accès.** apparaitra:
